@@ -1,0 +1,26 @@
+.maintenance-upper-buttons{
+	-fx-background-color: '#FAFAFA';
+	-fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 8, 0, 0, 4);
+}
+
+#on-page-button{
+	-fx-background-color: '#FFBA68';
+}
+
+#menu-bar{
+	-fx-background-color: '#FAFAFA';
+	-fx-border-radius: 50;
+	-fx-translate-x: 0;
+	-fx-translate-y: 0;
+}
+
+.menu-images {
+	
+}
+
+.menu-bar-buttons {
+	-fx-background-color: '#FAFAFA';
+}
+
+
+

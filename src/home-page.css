@@ -1,0 +1,27 @@
+#right-notification-button{
+	-fx-background-color: '#F2F2F2';
+	-fx-background-radius: 10;
+	-fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 8, 0, 0, 4);
+	-fx-pref-width: 75;
+	-fx-pref-height: 75;
+
+}
+
+
+.home-buttons, .home-buttons:hover {
+	-fx-background-color: '#FAFAFA';
+	-fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 8, 0, 0, 4);
+	-fx-border-radius: 50;
+	-fx-font-family: "Barlow";
+	-fx-font-size: 35px;
+}
+
+
+#title-label {
+	-fx-font-family: "Angkor";
+}
+
+
+
+
+

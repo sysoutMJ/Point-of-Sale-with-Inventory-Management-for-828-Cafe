@@ -1,0 +1,16 @@
+{
+    "java.project.referencedLibraries": [
+        "d:\\School Stuff\\javafx-sdk-22.0.1\\lib\\javafx.graphics.jar",
+        "d:\\School Stuff\\javafx-sdk-22.0.1\\lib\\javafx.web.jar",
+        "d:\\School Stuff\\javafx-sdk-22.0.1\\lib\\javafx.fxml.jar",
+        "d:\\School Stuff\\javafx-sdk-22.0.1\\lib\\javafx.media.jar",
+        "d:\\School Stuff\\javafx-sdk-22.0.1\\lib\\javafx.base.jar",
+        "d:\\School Stuff\\javafx-sdk-22.0.1\\lib\\javafx.controls.jar",
+        "d:\\School Stuff\\mysql-connector-j-8.4.0.jar",
+        "d:\\School Stuff\\javafx-sdk-22.0.1\\lib\\javafx-swt.jar",
+        "d:\\School Stuff\\javafx-sdk-22.0.1\\lib\\javafx.swing.jar"
+    ],
+    "java.project.sourcePaths": [
+        "src"
+    ]
+}

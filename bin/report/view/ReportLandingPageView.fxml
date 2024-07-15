@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="main-frame-bg" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" stylesheets="@report.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="report.controller.ReportLandingPageController">
+   <children>
+      <VBox id="menu-bar" alignment="CENTER" layoutX="30.0" layoutY="56.0" prefHeight="989.0" prefWidth="125.0" spacing="5.0" stylesheets="@../../side-bar-menu-buttons.css">
+         <children>
+            <Button fx:id="homeButton" mnemonicParsing="false" onAction="#goToHome" prefHeight="100.0" prefWidth="100.0" styleClass="menu-bar-buttons" stylesheets="@../../side-bar-menu-buttons.css">
+               <graphic>
+                  <ImageView fitHeight="100.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" styleClass="menu-images">
+                     <image>
+                        <Image url="@../../images/sidemenubar/Home.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="searchButton" mnemonicParsing="false" onAction="#goToSearch" prefHeight="100.0" prefWidth="100.0" styleClass="menu-bar-buttons" stylesheets="@../../side-bar-menu-buttons.css">
+               <graphic>
+                  <ImageView fitHeight="100.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" styleClass="menu-images">
+                     <image>
+                        <Image url="@../../images/sidemenubar/Search.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="registerItemButton" mnemonicParsing="false" onAction="#goToRegisterItem" prefHeight="100.0" prefWidth="100.0" styleClass="menu-bar-buttons" stylesheets="@../../side-bar-menu-buttons.css">
+               <graphic>
+                  <ImageView fitHeight="215.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" styleClass="menu-images">
+                     <image>
+                        <Image url="@../../images/sidemenubar/Register_item.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="maintenanceButton" mnemonicParsing="false" onAction="#goToMaintenance" prefHeight="100.0" prefWidth="100.0" styleClass="menu-bar-buttons" stylesheets="@../../side-bar-menu-buttons.css">
+               <graphic>
+                  <ImageView fitHeight="100.0" fitWidth="95.0" pickOnBounds="true" preserveRatio="true" styleClass="menu-images">
+                     <image>
+                        <Image url="@../../images/sidemenubar/Maintenance.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="securityButton" mnemonicParsing="false" onAction="#goToSecurity" prefHeight="100.0" prefWidth="100.0" styleClass="menu-bar-buttons" stylesheets="@../../side-bar-menu-buttons.css">
+               <graphic>
+                  <ImageView fitHeight="100.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true" styleClass="menu-images">
+                     <image>
+                        <Image url="@../../images/sidemenubar/Security.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="reportButton" mnemonicParsing="false" onAction="#goToReport" prefHeight="100.0" prefWidth="100.0" styleClass="menu-bar-buttons" stylesheets="@../../side-bar-menu-buttons.css">
+               <graphic>
+                  <ImageView fitHeight="106.0" fitWidth="99.0" pickOnBounds="true" preserveRatio="true" styleClass="menu-images">
+                     <image>
+                        <Image url="@../../images/sidemenubar/report_selected.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="helpButton" mnemonicParsing="false" onAction="#goToHelp" prefHeight="100.0" prefWidth="100.0" styleClass="menu-bar-buttons" stylesheets="@../../side-bar-menu-buttons.css">
+               <graphic>
+                  <ImageView fitHeight="100.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" styleClass="menu-images">
+                     <image>
+                        <Image url="@../../images/sidemenubar/Help.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="aboutButton" mnemonicParsing="false" onAction="#goToAbout" prefHeight="100.0" prefWidth="100.0" styleClass="menu-bar-buttons" stylesheets="@../../side-bar-menu-buttons.css">
+               <graphic>
+                  <ImageView fitHeight="100.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" styleClass="menu-images">
+                     <image>
+                        <Image url="@../../images/sidemenubar/About.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="logoutButton" mnemonicParsing="false" onAction="#goToLogout" prefHeight="100.0" prefWidth="100.0" styleClass="menu-bar-buttons" stylesheets="@../../side-bar-menu-buttons.css">
+               <graphic>
+                  <ImageView fitHeight="100.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" styleClass="menu-images">
+                     <image>
+                        <Image url="@../../images/sidemenubar/Logout.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </VBox>
+      <HBox layoutX="190.0" layoutY="56.0" spacing="10.0">
+         <children>
+            <Button fx:id="goToStockReportButton" mnemonicParsing="false" onAction="#goToStockReport" styleClass="top-buttons" stylesheets="@../../top-menu-buttons.css" text="Stock Report">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <padding>
+                  <Insets bottom="10.0" left="40.0" right="40.0" top="10.0" />
+               </padding>
+            </Button>
+            <Button fx:id="goToSalesReportButton" mnemonicParsing="false" onAction="#goToSalesReport" styleClass="top-buttons" stylesheets="@../../top-menu-buttons.css" text="Sales Report">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <padding>
+                  <Insets bottom="10.0" left="40.0" right="40.0" top="10.0" />
+               </padding>
+            </Button>
+         </children>
+      </HBox>
+      <ToggleButton id="right-notification-button" fx:id="notificationToggleButton" layoutX="1814.0" layoutY="56.0" mnemonicParsing="false" onAction="#getNotification" prefHeight="75.0" prefWidth="75.0" stylesheets="@../../top-menu-buttons.css">
+         <graphic>
+            <ImageView fitHeight="75.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/topmenubar/Notifications.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </ToggleButton>
+      <ScrollPane id="background" fx:id="notificationScrollPane" layoutX="272.0" layoutY="56.0" prefHeight="945.0" prefWidth="1541.0" stylesheets="@/notifiaction.css">
+         <content>
+            <Label fx:id="notificationLabel" text="Label">
+               <padding>
+                  <Insets left="50.0" top="50.0" />
+               </padding>
+               <font>
+                  <Font size="45.0" />
+               </font>
+            </Label>
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

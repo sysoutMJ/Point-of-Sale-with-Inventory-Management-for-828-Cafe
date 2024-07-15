@@ -1,0 +1,39 @@
+#main-frame-bg{
+	-fx-background-color: '#E8D9C2';
+}
+
+.vbox-size{
+	-fx-pref-height: 100;
+	-fx-pref-width: 750;
+}
+
+.label-above-textfields {
+    -fx-font-family: 'Barlow Regular';
+    -fx-font-size: 20px;
+}
+
+.register-input-textfields {
+	-fx-font-family: 'Barlow Regular';
+	-fx-font-size: 30px;
+	-fx-background-radius: 3px;
+	-fx-background-color: '#F2F2F2';
+	-fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 8, 0, 0, 4);
+}
+
+.menu-button {
+	-fx-font-size: 30px;
+	-fx-background-color: '#F2F2F2';
+	-fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 8, 0, 0, 4);
+}
+
+#register-button {
+	-fx-background-color: '#D3FFC1';
+	-fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 8, 0, 0, 4);
+	-fx-background-radius: 10;
+}
+
+
+.overlayPane{
+	-fx-background-color: '#2E2E2E';
+	-fx-opacity: 0.5;
+}
