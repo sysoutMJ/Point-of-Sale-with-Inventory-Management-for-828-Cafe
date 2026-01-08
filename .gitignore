@@ -1,0 +1,18 @@
+# Eclipse
+.settings/
+.classpath
+.project
+
+# IntelliJ
+.idea/
+*.iml
+out/
+
+# VS Code
+.vscode/
+
+# Compiled output
+bin/
+
+# OS files
+.DS_Store
