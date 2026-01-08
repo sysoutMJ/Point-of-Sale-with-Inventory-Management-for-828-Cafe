@@ -1,0 +1,31 @@
+#right-notification-button{
+	-fx-background-color: '#F2F2F2';
+	-fx-background-radius: 10;
+	-fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 8, 0, 0, 4);
+	-fx-pref-width: 75;
+	-fx-pref-height: 75;
+
+}
+
+
+.top-buttons{
+	-fx-background-color: '#FAFAFA';
+	-fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 8, 0, 0, 4);
+}
+
+#on-page-button{
+	-fx-background-color: '#FFBA68';
+}
+
+#menu-bar{
+	-fx-background-color: '#FAFAFA';
+	-fx-border-radius: 50;
+}
+
+.menu-images {
+	
+}
+
+
+
+

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox id="expired-notification-hbox" alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" xmlns:fx="http://javafx.com/fxml" stylesheets="@../../notifiaction.css">
+    <children>
+        <ImageView fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../images/notifications/Expired.png"/>
+            </image>
+        </ImageView>
+        <Label prefHeight="57.0" prefWidth="182.0" styleClass="warning-label" text="Expired:">
+            <font>
+                <Font size="40.0"/>
+            </font>
+        </Label>
+        <Label prefHeight="58.0" prefWidth="651.0" styleClass="item-details" text="item name-category-brand-supplier">
+            <font>
+                <Font size="40.0"/>
+            </font>
+        </Label>
+        <Button mnemonicParsing="false" prefHeight="65.0" styleClass="close-button-expired-notification">
+            <graphic>
+                <ImageView fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../../images/notifications/close%20button.png"/>
+                    </image>
+                </ImageView>
+            </graphic>
+        </Button>
+    </children>
+</HBox>

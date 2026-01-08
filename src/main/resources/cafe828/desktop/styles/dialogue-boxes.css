@@ -1,0 +1,50 @@
+#background {
+    -fx-background-color: transparent;
+    -fx-background-radius: 10px; /* Set corner radius */
+    -fx-border-width: 1px; /* Adjust border width as needed */
+    -fx-border-color: transparent; /* Optionally set border color */
+}
+
+.error-label {
+	-fx-font-family: 'Noto Sans';
+}
+
+/* For longer text field areas */
+.message-label {
+	-fx-font-family: 'Barlow';
+}
+
+.texfield-label {
+	
+}
+
+
+
+.confirm-button {
+	-fx-font-family: 'Barlow';
+	-fx-font-size: 23px;
+	-fx-background-radius: 10;
+	-fx-background-color: #D3FFC1;
+	-fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 8, 0, 0, 4);
+	-fx-pref-width: 170;
+	-fx-pref-height: 50;
+}
+
+#no-button {
+	-fx-font-family: 'Barlow';
+	-fx-font-size: 23px;
+	-fx-background-radius: 10;
+	-fx-background-color: #FFC0C0;
+	-fx-padding: 5px 20px 5px 20px; 
+	-fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 8, 0, 0, 4);
+	-fx-pref-width: 170;
+	-fx-pref-height: 50;
+}
+
+.cancel-button {
+	-fx-font-family: 'Barlow';
+	-fx-font-size: 23px;
+	-fx-background-radius: 10;
+	-fx-background-color: #D9D9D9;
+	-fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 8, 0, 0, 4);
+}

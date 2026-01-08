@@ -1,0 +1,55 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+
+#main-frame-bg{
+	-fx-background-color: '#E8D9C2';
+}
+
+
+
+.label-above-textfields {
+    -fx-font-family: 'Barlow';
+    -fx-font-size: 20px;
+}
+
+.textfield-input {
+	-fx-font-family: 'Barlow';
+	-fx-font-size: 30px;
+	-fx-background-radius: 3px;
+	-fx-background-color: '#F2F2F2';
+	-fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 8, 0, 0, 4);
+}
+
+.vbox-size-dropwdown {
+	-fx-pref-width: 450;
+}
+
+
+#save-button {
+	-fx-font-family: 'Barlow';
+	-fx-background-color: '#D3FFC1';
+	-fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 8, 0, 0, 4);
+	-fx-background-radius: 10;
+}
+
+
+.overlayPane{
+	-fx-background-color: '#2E2E2E';
+	-fx-opacity: 0.5;
+}
+
+#status-button{
+	-fx-border-width: 20;
+}
+
+#status-state{
+	-fx-background-color: '#F2F2F2';
+}
+
+#check-button{
+	-fx-background-color: '#D5D5D5';
+	-fx-font-family: 'Barlow Regular';
+	-fx-font-size: 20px;
+	-fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 8, 0, 0, 4);
+	-fx-background-radius: 10;
+}

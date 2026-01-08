@@ -1,0 +1,80 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+
+#main-frame-bg{
+	-fx-background-color: '#E8D9C2';
+}
+
+.long-dropdown-menu-button {
+	-fx-font-family: 'Barlow';
+	-fx-font-size: 30px;
+	-fx-background-radius: 3px;
+	-fx-background-color: '#F2F2F2';
+	-fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 8, 0, 0, 4);
+	-fx-pref-width: 800;
+}
+
+
+.label-above-textfields {
+    -fx-font-family: 'Barlow';
+    -fx-font-size: 20px;
+}
+
+.textfield-input {
+	-fx-font-family: 'Barlow';
+	-fx-font-size: 30px;
+	-fx-background-radius: 3px;
+	-fx-background-color: '#F2F2F2';
+	-fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 8, 0, 0, 4);
+}
+
+
+#restore-button{
+	-fx-font-family: 'Barlow';
+	-fx-background-color: '#FFE072';
+	-fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 8, 0, 0, 4);
+	-fx-background-radius: 20;
+	-fx-font-size: 23px;
+	-fx-font-weight: 600;
+}
+
+#backup-button{
+	-fx-background-color: '#BDDBFF';
+	-fx-font-family: 'Barlow';
+	-fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 8, 0, 0, 4);
+	-fx-background-radius: 20;
+	-fx-font-size: 23px;
+	-fx-font-weight: 600;
+}
+
+
+.overlayPane{
+	-fx-background-color: '#2E2E2E';
+	-fx-opacity: 0.5;
+}
+
+.maintenance-upper-buttons{
+	-fx-background-color: '#FAFAFA';
+	-fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 8, 0, 0, 4);
+}
+
+#on-restock-button{
+	-fx-background-color: '#FFBA68';
+}
+
+#check-button{
+	-fx-background-color: '#D5D5D5';
+	-fx-font-family: 'Barlow';
+	-fx-font-size: 20px;
+	-fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 8, 0, 0, 4);
+	-fx-background-radius: 10;
+}
+
+#long-datepicker{
+	-fx-font-family: 'Barlow Regular';
+	-fx-font-size: 30px;
+	-fx-background-radius: 3px;
+	-fx-background-color: '#F2F2F2';
+	-fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 8, 0, 0, 4);
+}
+

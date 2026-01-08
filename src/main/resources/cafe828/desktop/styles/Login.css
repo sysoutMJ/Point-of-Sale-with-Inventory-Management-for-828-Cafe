@@ -1,0 +1,12 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.confirm-button {
+	-fx-font-family: 'Barlow';
+	-fx-font-size: 30px;
+	-fx-background-radius: 10;
+	-fx-background-color: #D3FFC1;
+	-fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 8, 0, 0, 4);
+	}
+	
+.message-label {
+	-fx-font-family: 'Barlow';
+}

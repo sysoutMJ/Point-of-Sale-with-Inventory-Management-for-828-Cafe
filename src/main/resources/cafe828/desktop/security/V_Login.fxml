@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane fx:id="overlayPane" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Security.controller.LoginController">
+   <children>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: E8D9C2;">
+         <children>
+            <Button fx:id="confirm" layoutX="900.0" layoutY="919.0" mnemonicParsing="false" onAction="#logins" prefHeight="75.0" prefWidth="187.0" styleClass="confirm-button" stylesheets="@Login.css" text="Log in">
+               <font>
+                  <Font size="40.0" />
+               </font>
+               <effect>
+                  <DropShadow color="#0000008e" offsetY="4.0" />
+               </effect>
+            </Button>
+            <VBox alignment="CENTER" layoutX="645.0" layoutY="489.0" spacing="30.0">
+               <children>
+                  <VBox>
+                     <children>
+                        <Label styleClass="message-label" stylesheets="@Login.css" text="Username">
+                           <font>
+                              <Font size="25.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="usernameField" prefHeight="94.0" prefWidth="701.0" style="-fx-background-color: F2F2F2; -fx-background-radius: 10;">
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                           <font>
+                              <Font size="30.0" />
+                           </font>
+                           <effect>
+                              <DropShadow color="#00000069" offsetY="4.0" />
+                           </effect>
+                        </TextField>
+                     </children>
+                  </VBox>
+                  <VBox>
+                     <children>
+                        <Label styleClass="message-label" stylesheets="@Login.css" text="Password">
+                           <font>
+                              <Font size="25.0" />
+                           </font>
+                        </Label>
+                        <PasswordField fx:id="passwordField" prefHeight="94.0" prefWidth="701.0" style="-fx-background-color: F2F2F2; -fx-background-radius: 10;">
+                           <font>
+                              <Font size="40.0" />
+                           </font>
+                           <effect>
+                              <DropShadow color="#00000071" offsetY="4.0" />
+                           </effect>
+                        </PasswordField>
+                     </children>
+                  </VBox>
+               </children>
+            </VBox>
+            <ImageView fx:id="logo" fitHeight="407.0" fitWidth="481.0" layoutX="809.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Images/Logo.png" />
+               </image>
+            </ImageView>
+      	<Button fx:id="forgotPassButton" alignment="TOP_LEFT" layoutX="1141.0" layoutY="798.0" mnemonicParsing="false" onAction="#forgotPass" prefHeight="51.0" prefWidth="221.0" style="-fx-background-color: E8D9C2; -fx-background-radius: 10;" text="Forgot Password?" underline="true">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</Pane>
