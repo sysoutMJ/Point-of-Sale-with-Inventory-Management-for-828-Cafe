@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="background" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="1141.0" styleClass="main-frame" stylesheets="@../../../../dialogue-boxes.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="maintenance.edititemdetails.controller.DialogueBoxesController">
+<AnchorPane id="background" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="1141.0" styleClass="main-frame" stylesheets="@../../../../dialogue-boxes.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cafe828.desktop.maintenance.edititemdetails.DialogueBoxesController">
    <children>
       <Label layoutX="56.0" layoutY="63.0" styleClass="error-label" stylesheets="@../../../../dialogue-boxes.css" text="Confirm editing of item details?">
          <font>

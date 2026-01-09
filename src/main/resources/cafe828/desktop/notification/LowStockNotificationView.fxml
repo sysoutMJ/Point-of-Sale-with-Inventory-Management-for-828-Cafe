@@ -5,7 +5,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<HBox id="low-stock-notification-hbox" alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" xmlns:fx="http://javafx.com/fxml" fx:controller="notification.controller.LowStockNotificationController" stylesheets="/notification.css">
+<HBox id="low-stock-notification-hbox" alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" xmlns:fx="http://javafx.com/fxml" fx:controller="cafe828.desktop.notification.LowStockNotificationController" stylesheets="/notification.css">
     <children>
         <ImageView fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
             <image>

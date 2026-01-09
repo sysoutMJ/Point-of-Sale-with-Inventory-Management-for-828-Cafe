@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="334.0" prefWidth="1023.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="search.controller.DialogueBoxesController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="334.0" prefWidth="1023.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cafe828.desktop.search.DialogueBoxesController">
    <children>
       <Button fx:id="confirmButton" alignment="CENTER" layoutX="797.0" layoutY="234.0" mnemonicParsing="false" onAction="#confirm" prefHeight="90.0" prefWidth="170.0" styleClass="confirm-button" stylesheets="@../../../dialogue-boxes.css" text="Confirm" />
       <HBox alignment="CENTER_LEFT" layoutX="62.0" layoutY="74.0" prefHeight="146.0" prefWidth="807.0" spacing="30.0">

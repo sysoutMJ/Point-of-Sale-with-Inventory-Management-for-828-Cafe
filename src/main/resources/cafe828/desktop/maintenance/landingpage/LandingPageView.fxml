@@ -12,7 +12,7 @@
 <?import javafx.scene.control.ScrollPane?>
 <?import javafx.scene.control.Label?>
 
-<AnchorPane id="main-frame-bg" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" stylesheets="@landing-page.css" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="maintenance.landingpage.controller.LandingPageController">
+<AnchorPane id="main-frame-bg" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" stylesheets="@landing-page.css" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cafe828.desktop.maintenance.landingpage.LandingPageController">
    <children>
       <HBox layoutX="190.0" layoutY="56.0" spacing="10.0">
          <children>

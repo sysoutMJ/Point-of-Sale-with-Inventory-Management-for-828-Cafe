@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="513.0" prefWidth="767.0" stylesheets="@../../dialogue-boxes.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Security.controller.ChooseAccountForgotPassDialogueBoxController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="513.0" prefWidth="767.0" stylesheets="@../../dialogue-boxes.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cafe828.desktop.security.ChooseAccountForgotPassDialogueBoxController">
    <children>
       <Label layoutX="60.0" layoutY="43.0" styleClass="error-label" text="Forgot Password - Choose Account">
          <font>

@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="1141.0" styleClass="main-frame" stylesheets="@../../../../dialogue-boxes.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="maintenance.restock.controller.DialogueBoxesController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="1141.0" styleClass="main-frame" stylesheets="@../../../../dialogue-boxes.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cafe828.desktop.maintenance.restock.DialogueBoxesController">
    <children>
       <Label layoutX="56.0" layoutY="63.0" styleClass="error-label" stylesheets="@../../../../dialogue-boxes.css" text="Confirm restocking of item?">
          <font>

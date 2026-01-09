@@ -13,7 +13,7 @@
 <?import javafx.scene.control.ScrollPane?>
 <?import javafx.scene.control.Label?>
 
-<Pane id="overlayPane" fx:id="overlayPane" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="search.controller.SearchLandingPageController">
+<Pane id="overlayPane" fx:id="overlayPane" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cafe828.desktop.search.SearchLandingPageController">
    <children>
       <AnchorPane id="main-frame-bg" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" stylesheets="@../search.css">
       	<children>

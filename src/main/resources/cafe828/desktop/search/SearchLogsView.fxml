@@ -19,7 +19,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.control.ToggleButton?>
 
-<Pane id="overlayPane" fx:id="overlayPane" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="search.controller.SearchLogsController">
+<Pane id="overlayPane" fx:id="overlayPane" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cafe828.desktop.search.SearchLogsController">
    <children>
       <AnchorPane id="main-frame-bg" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" stylesheets="@../search.css">
       	<children>
