@@ -4,7 +4,6 @@ import java.io.IOException;
 import java.time.LocalDate;
 import java.util.List;
 
-import inventorymanagement.model.RegisterItemDAO;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
@@ -29,10 +28,12 @@ import javafx.scene.text.Text;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
-import notification.NotificationController;
-import notification.NotificationDAO;
-import search.model.SearchInventoryDAO;
-import search.model.SearchInventoryModel;
+
+import cafe828.desktop.notification.NotificationController;
+import cafe828.desktop.database.RegisterItemDAO;
+import cafe828.desktop.database.NotificationDAO;
+import cafe828.desktop.database.SearchInventoryDAO;
+import cafe828.desktop.search.SearchInventoryModel;
 
 public class SearchInventoryController {
 

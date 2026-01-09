@@ -12,7 +12,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-import database.DatabaseConnection;
+import cafe828.desktop.database.DatabaseConnection;
+import cafe828.desktop.inventory.RegisterItemInventoryModel;
 
 public class RegisterItemDAO {
 

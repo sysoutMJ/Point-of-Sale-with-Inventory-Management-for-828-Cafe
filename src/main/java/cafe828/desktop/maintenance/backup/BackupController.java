@@ -3,7 +3,7 @@ package cafe828.desktop.maintenance.backup;
 import java.io.File;
 import java.io.IOException;
 
-import inventorymanagement.model.RegisterItemDAO;
+
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -19,8 +19,10 @@ import javafx.scene.control.ToggleButton;
 import javafx.scene.layout.Pane;
 import javafx.stage.FileChooser;
 import javafx.stage.Stage;
-import notification.NotificationController;
-import notification.NotificationDAO;
+
+import cafe828.desktop.notification.NotificationController;
+import cafe828.desktop.database.RegisterItemDAO;
+import cafe828.desktop.database.NotificationDAO;
 
 public class BackupController {
 

@@ -11,8 +11,8 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
-import database.DatabaseConnection;
-
+import cafe828.desktop.database.DatabaseConnection;
+import cafe828.desktop.report.SalesReportModel;
 public class SalesReportDAO {
 	
 	public List<SalesReportModel> fetchDataFromDatabase() {

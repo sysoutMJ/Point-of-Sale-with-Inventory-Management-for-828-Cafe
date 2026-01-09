@@ -13,10 +13,7 @@ import javafx.scene.control.TextInputDialog;
 import javafx.scene.control.ToggleButton;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
-import notification.NotificationController;
-import notification.NotificationDAO;
-import database.DatabaseConnection;
-import inventorymanagement.model.RegisterItemDAO;
+
 
 import java.io.IOException;
 import java.security.MessageDigest;
@@ -29,6 +26,11 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 import java.util.Random;
+
+import cafe828.desktop.notification.NotificationController;
+import cafe828.desktop.database.DatabaseConnection;
+import cafe828.desktop.database.NotificationDAO;
+import cafe828.desktop.database.RegisterItemDAO;
 
 public class ChangePasswordController {
 

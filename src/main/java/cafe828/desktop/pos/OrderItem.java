@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 
-import database.DatabaseConnection;
+import cafe828.desktop.database.DatabaseConnection;
 
 public class OrderItem {
     private String name;

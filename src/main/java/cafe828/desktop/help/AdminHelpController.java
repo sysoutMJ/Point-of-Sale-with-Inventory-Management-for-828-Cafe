@@ -13,16 +13,15 @@ import javafx.scene.control.ToggleButton;
 import javafx.scene.layout.Pane;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
-import notification.NotificationController;
-import notification.NotificationDAO;
-
 import java.awt.Desktop;
 import java.io.File;
 import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 
-import inventorymanagement.model.RegisterItemDAO;
+import cafe828.desktop.notification.NotificationController;
+import cafe828.desktop.database.NotificationDAO;
+import cafe828.desktop.database.RegisterItemDAO;
 
 public class AdminHelpController implements Initializable {
 

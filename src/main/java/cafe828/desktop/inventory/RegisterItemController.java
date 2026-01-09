@@ -1,7 +1,5 @@
 package cafe828.desktop.inventory;
 
-import inventorymanagement.model.*;
-
 import java.io.IOException;
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -11,8 +9,6 @@ import java.sql.SQLException;
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Random;
-
-import database.DatabaseConnection;
 import javafx.application.Platform;
 import javafx.concurrent.ScheduledService;
 import javafx.concurrent.Task;
@@ -38,8 +34,12 @@ import javafx.stage.Modality;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 import javafx.util.Duration;
-import notification.NotificationController;
-import notification.NotificationDAO;
+
+import cafe828.desktop.inventory.*;
+import cafe828.desktop.database.DatabaseConnection;
+import cafe828.desktop.notification.NotificationController;
+import cafe828.desktop.database.NotificationDAO;
+import cafe828.desktop.database.RegisterItemDAO;
 
 public class RegisterItemController {
 

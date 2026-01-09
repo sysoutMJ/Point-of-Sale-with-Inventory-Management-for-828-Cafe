@@ -10,8 +10,7 @@ import javafx.scene.control.Label;
 import javafx.scene.control.ScrollPane;
 import javafx.scene.control.ToggleButton;
 import javafx.stage.Stage;
-import notification.NotificationController;
-import notification.NotificationDAO;
+
 
 import java.io.IOException;
 import java.sql.Connection;
@@ -23,8 +22,10 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Random;
 
-import database.DatabaseConnection;
-import inventorymanagement.model.RegisterItemDAO;
+import cafe828.desktop.notification.NotificationController;
+import cafe828.desktop.database.DatabaseConnection;
+import cafe828.desktop.database.NotificationDAO;
+import cafe828.desktop.database.RegisterItemDAO;
 
 public class AdminMenuController {
 

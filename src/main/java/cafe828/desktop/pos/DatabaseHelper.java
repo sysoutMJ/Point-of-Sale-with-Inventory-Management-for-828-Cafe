@@ -6,7 +6,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-import database.DatabaseConnection;
+import cafe828.desktop.database.DatabaseConnection;
 
 public class DatabaseHelper {
 	

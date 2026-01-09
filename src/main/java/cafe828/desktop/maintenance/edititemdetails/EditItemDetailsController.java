@@ -3,7 +3,6 @@ package cafe828.desktop.maintenance.edititemdetails;
 import java.io.IOException;
 import java.util.List;
 
-import inventorymanagement.model.RegisterItemDAO;
 import javafx.concurrent.ScheduledService;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -26,10 +25,12 @@ import javafx.scene.text.Text;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
-import maintenance.edititemdetails.model.EditItemDetailsDAO;
-import maintenance.edititemdetails.model.EditItemDetailsModel;
-import notification.NotificationController;
-import notification.NotificationDAO;
+
+import cafe828.desktop.database.RegisterItemDAO;
+import cafe828.desktop.database.EditItemDetailsDAO;
+import cafe828.desktop.maintenance.edititemdetails.EditItemDetailsModel;
+import cafe828.desktop.notification.NotificationController;
+import cafe828.desktop.database.NotificationDAO;
 
 public class EditItemDetailsController {
 

@@ -4,7 +4,6 @@ import java.io.IOException;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import inventorymanagement.model.RegisterItemDAO;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -25,13 +24,18 @@ import javafx.scene.text.Text;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
-import maintenance.edititemdetails.model.EditItemDetailsDAO;
-import maintenance.edititemdetails.model.EditItemDetailsModel;
-import maintenance.restock.model.RestockModel;
-import maintenance.setitemstatus.model.SetItemStatusDAO;
-import maintenance.setitemstatus.model.SetItemStatusModel;
-import notification.NotificationController;
-import notification.NotificationDAO;
+
+import cafe828.desktop.notification.NotificationController;
+import cafe828.desktop.maintenance.setitemstatus.SetItemStatusModel;
+import cafe828.desktop.maintenance.edititemdetails.EditItemDetailsModel;
+import cafe828.desktop.maintenance.restock.RestockModel;
+
+import cafe828.desktop.database.RegisterItemDAO;
+import cafe828.desktop.database.SetItemStatusDAO;
+import cafe828.desktop.database.NotificationDAO;
+import cafe828.desktop.database.EditItemDetailsDAO;
+
+
 
 public class SetItemStatusController {
 

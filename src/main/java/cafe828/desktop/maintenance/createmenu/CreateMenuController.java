@@ -23,8 +23,7 @@ import javafx.scene.layout.VBox;
 import javafx.scene.text.Text;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
-import notification.NotificationController;
-import notification.NotificationDAO;
+
 
 import java.io.IOException;
 import java.sql.Connection;
@@ -34,8 +33,11 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.Optional;
 
-import database.DatabaseConnection;
-import inventorymanagement.model.RegisterItemDAO;
+
+import cafe828.desktop.notification.NotificationController;
+import cafe828.desktop.database.DatabaseConnection;
+import cafe828.desktop.database.NotificationDAO;
+import cafe828.desktop.database.RegisterItemDAO;
 
 public class CreateMenuController {
 

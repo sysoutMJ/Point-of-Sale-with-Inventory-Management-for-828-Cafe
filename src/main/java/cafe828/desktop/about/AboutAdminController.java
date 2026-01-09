@@ -2,7 +2,7 @@ package cafe828.desktop.about;
 
 import java.io.IOException;
 
-import inventorymanagement.model.RegisterItemDAO;
+
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -17,8 +17,10 @@ import javafx.scene.layout.HBox;
 import javafx.scene.layout.Pane;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
-import notification.NotificationController;
-import notification.NotificationDAO;
+
+import cafe828.desktop.notification.NotificationController;
+import cafe828.desktop.database.RegisterItemDAO;
+import cafe828.desktop.database.NotificationDAO;
 
 public class AboutAdminController {
 

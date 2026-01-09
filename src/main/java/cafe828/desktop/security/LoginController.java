@@ -1,7 +1,6 @@
 package cafe828.desktop.security;
 
 import javafx.event.ActionEvent;
-import Main.Main;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -26,9 +25,10 @@ import java.util.List;
 import java.util.Optional;
 import java.util.Random;
 
-import database.DatabaseConnection;
-import inventorymanagement.controller.DialogueBoxesController;
-import inventorymanagement.model.RegisterItemDAO;
+import cafe828.desktop.main.Main;
+import cafe828.desktop.database.DatabaseConnection;
+import cafe828.desktop.inventory.DialogueBoxesController;
+import cafe828.desktop.database.RegisterItemDAO;
 
 public class LoginController {
 

@@ -4,6 +4,8 @@ import javafx.scene.control.ScrollPane;
 import javafx.scene.control.ToggleButton;
 import javafx.scene.image.ImageView;
 
+import cafe828.desktop.database.NotificationDAO;
+
 public class NotificationController {
 	
 	public void displayNotifcationIcon(ToggleButton notificationToggleButton, ScrollPane notificationScrollPane) {

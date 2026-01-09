@@ -17,7 +17,7 @@ import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 
-import inventorymanagement.model.RegisterItemDAO;
+import cafe828.desktop.database.RegisterItemDAO;
 
 public class StaffHelpController implements Initializable {
 

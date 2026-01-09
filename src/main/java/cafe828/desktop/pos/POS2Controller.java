@@ -32,7 +32,7 @@ import java.util.Arrays;
 import java.util.Random;
 import java.util.ResourceBundle;
 
-import database.DatabaseConnection;
+import cafe828.desktop.database.DatabaseConnection;
 
 public class POS2Controller implements Initializable {
 

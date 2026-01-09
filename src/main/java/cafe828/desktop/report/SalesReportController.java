@@ -17,7 +17,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import inventorymanagement.model.RegisterItemDAO;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -41,8 +40,6 @@ import net.sf.jasperreports.engine.JasperPrint;
 import net.sf.jasperreports.engine.JasperReport;
 import net.sf.jasperreports.engine.data.JRBeanCollectionDataSource;
 import net.sf.jasperreports.view.JasperViewer;
-import notification.NotificationController;
-import notification.NotificationDAO;
 //import net.sf.jasperreports.engine.JRException;
 //import net.sf.jasperreports.engine.JasperCompileManager;
 //import net.sf.jasperreports.engine.JasperFillManager;
@@ -50,10 +47,15 @@ import notification.NotificationDAO;
 //import net.sf.jasperreports.engine.JasperReport;
 //import net.sf.jasperreports.engine.data.JRBeanCollectionDataSource;
 //import net.sf.jasperreports.view.JasperViewer;
-import report.model.SalesReportDAO;
-import report.model.SalesReportModel;
-import report.model.StockReportDAO;
-import report.model.StockReportModel;
+
+import cafe828.desktop.notification.NotificationController;
+import cafe828.desktop.report.StockReportModel;
+import cafe828.desktop.report.SalesReportModel;
+import cafe828.desktop.database.NotificationDAO;
+import cafe828.desktop.database.RegisterItemDAO;
+import cafe828.desktop.database.SalesReportDAO;
+import cafe828.desktop.database.StockReportDAO;
+
 
 public class SalesReportController {
 

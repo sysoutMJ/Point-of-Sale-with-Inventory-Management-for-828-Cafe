@@ -18,7 +18,7 @@ import java.sql.*;
 import java.util.Optional;
 import java.util.ResourceBundle;
 
-import database.DatabaseConnection;
+import cafe828.desktop.database.DatabaseConnection;
 
 public class AddIngredientController implements Initializable {
 

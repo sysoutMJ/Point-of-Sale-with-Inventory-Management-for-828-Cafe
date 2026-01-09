@@ -12,8 +12,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-import database.DatabaseConnection;
-import inventorymanagement.model.RegisterItemDAO;
+import cafe828.desktop.database.DatabaseConnection;
+import cafe828.desktop.database.RegisterItemDAO;
+import cafe828.desktop.maintenance.restock.RestockModel;
 
 public class RestockDAO {
 

@@ -13,7 +13,8 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 
-import database.DatabaseConnection;
+import cafe828.desktop.database.DatabaseConnection;
+import cafe828.desktop.search.SearchInventoryModel;
 
 public class SearchInventoryDAO {
 

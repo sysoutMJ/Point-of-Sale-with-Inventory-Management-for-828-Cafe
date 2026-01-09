@@ -12,7 +12,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>21</maven.compiler.source> <!-- adjust Java version -->
         <maven.compiler.target>21</maven.compiler.target>
-        <javafx.version>21.0.6</javafx.version> <!-- adjust JavaFX version -->
+        <javafx.version>22.0.1</javafx.version> <!-- adjust JavaFX version -->
     </properties>
 
     <dependencies>
@@ -25,6 +25,16 @@
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-fxml</artifactId>
             <version>${javafx.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.11</version>
+        </dependency>
+        <dependency>
+            <groupId>net.sf.jasperreports</groupId>
+            <artifactId>jasperreports</artifactId>
+            <version>7.0.0</version>
         </dependency>
     </dependencies>
 

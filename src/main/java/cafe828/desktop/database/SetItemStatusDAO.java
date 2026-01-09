@@ -9,8 +9,9 @@ import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
-import database.DatabaseConnection;
-import inventorymanagement.model.RegisterItemDAO;
+import cafe828.desktop.database.DatabaseConnection;
+import cafe828.desktop.database.RegisterItemDAO;
+import cafe828.desktop.maintenance.setitemstatus.SetItemStatusModel;
 
 public class SetItemStatusDAO {
 

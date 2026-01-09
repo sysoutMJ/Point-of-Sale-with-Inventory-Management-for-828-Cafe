@@ -12,7 +12,8 @@ import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
-import database.DatabaseConnection;
+import cafe828.desktop.database.DatabaseConnection;
+import cafe828.desktop.report.StockReportModel;
 
 public class StockReportDAO {
 

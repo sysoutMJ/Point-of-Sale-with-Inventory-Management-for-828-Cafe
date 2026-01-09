@@ -9,8 +9,6 @@ import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.List;
 
-import database.DatabaseConnection;
-import inventorymanagement.model.RegisterItemDAO;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -25,6 +23,9 @@ import javafx.scene.layout.FlowPane;
 import javafx.scene.layout.Pane;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
+
+import cafe828.desktop.database.DatabaseConnection;
+import cafe828.desktop.database.RegisterItemDAO;
 
 public class MainController {
 
