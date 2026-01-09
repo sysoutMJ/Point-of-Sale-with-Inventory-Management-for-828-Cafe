@@ -8,16 +8,16 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="background" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="315.0" prefWidth="1205.0" stylesheets="@../../../../dialogue-boxes.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cafe828.desktop.maintenance.edititemdetails.DialogueBoxesController">
+<AnchorPane id="background" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="315.0" prefWidth="1205.0" stylesheets="@/cafe828/desktop/styles/dialogue-boxes.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cafe828.desktop.maintenance.edititemdetails.DialogueBoxesController">
    <children>
       <HBox alignment="CENTER_LEFT" layoutX="62.0" layoutY="65.0" prefHeight="100.0" prefWidth="1028.0" spacing="20.0">
          <children>
             <ImageView fitHeight="90.0" fitWidth="90.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../../images/dialogueboxes/Check%20Mark.png" />
+                  <Image url="@/cafe828/desktop/images/dialogueboxes/Check%20Mark.png" />
                </image>
             </ImageView>
-            <Label prefHeight="73.0" prefWidth="874.0" styleClass="error-label" stylesheets="@../../../../dialogue-boxes.css" text="Item successfully set to available.">
+            <Label prefHeight="73.0" prefWidth="874.0" styleClass="error-label" stylesheets="@/cafe828/desktop/styles/dialogue-boxes.css" text="Item successfully set to available.">
                <font>
                   <Font size="45.0" />
                </font>
@@ -25,6 +25,6 @@
          </children>
       </HBox>
       <HBox layoutX="415.0" layoutY="196.0" prefHeight="54.0" prefWidth="177.0" spacing="30.0" />
-      <Button fx:id="confirmButton" alignment="CENTER" layoutX="957.0" layoutY="199.0" mnemonicParsing="false" onAction="#confirm" prefHeight="90.0" prefWidth="170.0" styleClass="confirm-button" stylesheets="@../../../../dialogue-boxes.css" text="Confirm" />
+      <Button fx:id="confirmButton" alignment="CENTER" layoutX="957.0" layoutY="199.0" mnemonicParsing="false" onAction="#confirm" prefHeight="90.0" prefWidth="170.0" styleClass="confirm-button" stylesheets="@/cafe828/desktop/styles/dialogue-boxes.css" text="Confirm" />
    </children>
 </AnchorPane>

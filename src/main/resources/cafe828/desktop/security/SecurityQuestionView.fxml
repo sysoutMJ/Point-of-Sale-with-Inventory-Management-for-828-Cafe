@@ -14,16 +14,16 @@
          <children>
             <ImageView fitHeight="72.0" fitWidth="84.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../images/dialogueboxes/Box%20Important.png" />
+                  <Image url="@/cafe828/desktop/images/dialogueboxes/Box%20Important.png" />
                </image>
             </ImageView>
-            <Label styleClass="error-label" stylesheets="@../../dialogue-boxes.css" text="Invalid account.">
+            <Label styleClass="error-label" stylesheets="@/cafe828/desktop/styles/dialogue-boxes.css" text="Invalid account.">
                <font>
                   <Font size="51.0" />
                </font>
             </Label>
          </children>
       </HBox>
-      <Button fx:id="back" layoutX="493.0" layoutY="201.0" mnemonicParsing="false" onAction="#enter" prefHeight="33.0" prefWidth="133.0" styleClass="confirm-button" stylesheets="@../../dialogue-boxes.css" text="Confirm" />
+      <Button fx:id="back" layoutX="493.0" layoutY="201.0" mnemonicParsing="false" onAction="#enter" prefHeight="33.0" prefWidth="133.0" styleClass="confirm-button" stylesheets="@/cafe828/desktop/styles/dialogue-boxes.css" text="Confirm" />
    </children>
 </AnchorPane>

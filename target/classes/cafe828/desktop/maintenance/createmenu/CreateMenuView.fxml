@@ -15,15 +15,15 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: #E8D9C2;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="maintenance.createmenu.controller.CreateMenuController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: #E8D9C2;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cafe828.desktop.maintenance.createmenu.CreateMenuController">
 	<children>
-		<VBox alignment="CENTER" layoutX="30.0" layoutY="56.0" prefHeight="989.0" prefWidth="125.0" spacing="5.0" styleClass="menu-bar-buttons" stylesheets="@../../../side-bar-menu-buttons.css">
+		<VBox alignment="CENTER" layoutX="30.0" layoutY="56.0" prefHeight="989.0" prefWidth="125.0" spacing="5.0" styleClass="menu-bar-buttons" stylesheets="@/cafe828/desktop/styles/side-bar-menu-buttons.css">
 			<children>
 				<Button fx:id="homeButton" mnemonicParsing="false" onAction="#goToHome" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: FAFAFA;">
 					<graphic>
 						<ImageView fitHeight="100.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" styleClass="menu-images">
 							<image>
-								<Image url="@../../../images/sidemenubar/Home.png" />
+								<Image url="@/cafe828/desktop/images/sidemenubar/Home.png" />
 							</image>
 						</ImageView>
 					</graphic>
@@ -32,7 +32,7 @@
 					<graphic>
 						<ImageView fitHeight="100.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" styleClass="menu-images">
 							<image>
-								<Image url="@../../../images/sidemenubar/Search.png" />
+								<Image url="@/cafe828/desktop/images/sidemenubar/Search.png" />
 							</image>
 						</ImageView>
 					</graphic>
@@ -41,7 +41,7 @@
 					<graphic>
 						<ImageView fitHeight="215.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" styleClass="menu-images">
 							<image>
-								<Image url="@../../../images/sidemenubar/Register_item.png" />
+								<Image url="@/cafe828/desktop/images/sidemenubar/Register_item.png" />
 							</image>
 						</ImageView>
 					</graphic>
@@ -50,7 +50,7 @@
 					<graphic>
 						<ImageView fitHeight="86.0" fitWidth="119.0" pickOnBounds="true" preserveRatio="true" styleClass="menu-images">
 							<image>
-								<Image url="@../../../images/sidemenubar/Maintenance_Selected.png" />
+								<Image url="@/cafe828/desktop/images/sidemenubar/Maintenance_Selected.png" />
 							</image>
 						</ImageView>
 					</graphic>
@@ -59,7 +59,7 @@
 					<graphic>
 						<ImageView fitHeight="100.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true" styleClass="menu-images">
 							<image>
-								<Image url="@../../../images/sidemenubar/Security.png" />
+								<Image url="@/cafe828/desktop/images/sidemenubar/Security.png" />
 							</image>
 						</ImageView>
 					</graphic>
@@ -68,7 +68,7 @@
 					<graphic>
 						<ImageView fitHeight="100.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" styleClass="menu-images">
 							<image>
-								<Image url="@../../../images/sidemenubar/Report.png" />
+								<Image url="@/cafe828/desktop/images/sidemenubar/Report.png" />
 							</image>
 						</ImageView>
 					</graphic>
@@ -77,7 +77,7 @@
 					<graphic>
 						<ImageView fitHeight="100.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" styleClass="menu-images">
 							<image>
-								<Image url="@../../../images/sidemenubar/Help.png" />
+								<Image url="@/cafe828/desktop/images/sidemenubar/Help.png" />
 							</image>
 						</ImageView>
 					</graphic>
@@ -86,7 +86,7 @@
 					<graphic>
 						<ImageView fitHeight="100.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" styleClass="menu-images">
 							<image>
-								<Image url="@../../../images/sidemenubar/About.png" />
+								<Image url="@/cafe828/desktop/images/sidemenubar/About.png" />
 							</image>
 						</ImageView>
 					</graphic>
@@ -95,7 +95,7 @@
 					<graphic>
 						<ImageView fitHeight="100.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" styleClass="menu-images">
 							<image>
-								<Image url="@../../../images/sidemenubar/Logout.png" />
+								<Image url="@/cafe828/desktop/images/sidemenubar/Logout.png" />
 							</image>
 						</ImageView>
 					</graphic>
@@ -131,9 +131,9 @@
 		<Text layoutX="209.0" layoutY="223.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Categories:" />
 		<Text fx:id="Label2" layoutX="715.0" layoutY="223.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Menu Items:" />
 		<Label layoutX="209.0" layoutY="154.0" text="Current Menu" />
-		<HBox layoutX="190.0" layoutY="56.0" spacing="10.0" stylesheets="@../../../top-menu-buttons.css">
+		<HBox layoutX="190.0" layoutY="56.0" spacing="10.0" stylesheets="@/cafe828/desktop/styles/top-menu-buttons.css">
 			<children>
-				<Button fx:id="goToRestockButton" mnemonicParsing="false" onAction="#goToRestock" styleClass="top-buttons" stylesheets="@../../../top-menu-buttons.css" text="Restock">
+				<Button fx:id="goToRestockButton" mnemonicParsing="false" onAction="#goToRestock" styleClass="top-buttons" stylesheets="@/cafe828/desktop/styles/top-menu-buttons.css" text="Restock">
 					<font>
 						<Font size="20.0" />
 					</font>
@@ -141,7 +141,7 @@
 						<Insets bottom="10.0" left="40.0" right="40.0" top="10.0" />
 					</padding>
 				</Button>
-				<Button fx:id="goToEditItemButton" mnemonicParsing="false" onAction="#goToEditItem" styleClass="top-buttons" stylesheets="@../../../top-menu-buttons.css" text="Edit Item">
+				<Button fx:id="goToEditItemButton" mnemonicParsing="false" onAction="#goToEditItem" styleClass="top-buttons" stylesheets="@/cafe828/desktop/styles/top-menu-buttons.css" text="Edit Item">
 					<font>
 						<Font size="20.0" />
 					</font>
@@ -149,7 +149,7 @@
 						<Insets bottom="10.0" left="40.0" right="40.0" top="10.0" />
 					</padding>
 				</Button>
-				<Button fx:id="goToSetItemStatusButton" mnemonicParsing="false" onAction="#goToSetItemStatus" styleClass="top-buttons" stylesheets="@../../../top-menu-buttons.css" text="Set Item Status">
+				<Button fx:id="goToSetItemStatusButton" mnemonicParsing="false" onAction="#goToSetItemStatus" styleClass="top-buttons" stylesheets="@/cafe828/desktop/styles/top-menu-buttons.css" text="Set Item Status">
 					<font>
 						<Font size="20.0" />
 					</font>
@@ -157,7 +157,7 @@
 						<Insets bottom="10.0" left="20.0" right="20.0" top="10.0" />
 					</padding>
 				</Button>
-				<Button id="on-page-button" fx:id="goToCreateMenuButton" mnemonicParsing="false" onAction="#goToCreateMenu" styleClass="top-buttons" stylesheets="@../../../top-menu-buttons.css" text="Create Menu">
+				<Button id="on-page-button" fx:id="goToCreateMenuButton" mnemonicParsing="false" onAction="#goToCreateMenu" styleClass="top-buttons" stylesheets="@/cafe828/desktop/styles/top-menu-buttons.css" text="Create Menu">
 					<font>
 						<Font size="20.0" />
 					</font>
@@ -165,7 +165,7 @@
 						<Insets bottom="10.0" left="20.0" right="20.0" top="10.0" />
 					</padding>
 				</Button>
-				<Button fx:id="goToBackupButton" mnemonicParsing="false" onAction="#goToBackup" styleClass="top-buttons" stylesheets="@../../../top-menu-buttons.css" text="Backup">
+				<Button fx:id="goToBackupButton" mnemonicParsing="false" onAction="#goToBackup" styleClass="top-buttons" stylesheets="@/cafe828/desktop/styles/top-menu-buttons.css" text="Backup">
 					<font>
 						<Font size="20.0" />
 					</font>
@@ -178,16 +178,16 @@
 		<Text fx:id="Label1" layoutX="407.0" layoutY="223.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Menu Items:" />
 		<VBox fx:id="inactiveMenuItemPane" layoutX="714.0" layoutY="225.0" prefHeight="616.0" prefWidth="308.0" />
 		<VBox fx:id="inactiveCategoryPane" layoutX="406.0" layoutY="225.0" prefHeight="616.0" prefWidth="308.0" />
-		<ToggleButton id="right-notification-button" fx:id="notificationToggleButton" layoutX="1814.0" layoutY="56.0" mnemonicParsing="false" onAction="#getNotification" prefHeight="75.0" prefWidth="75.0" stylesheets="@/top-menu-buttons.css">
+		<ToggleButton id="right-notification-button" fx:id="notificationToggleButton" layoutX="1814.0" layoutY="56.0" mnemonicParsing="false" onAction="#getNotification" prefHeight="75.0" prefWidth="75.0" stylesheets="@/cafe828/desktop/styles/top-menu-buttons.css">
 			<graphic>
 				<ImageView fitHeight="75.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
 					<image>
-						<Image url="@/images/topmenubar/Notifications.png" />
+						<Image url="@/cafe828/desktop/images/topmenubar/Notifications.png" />
 					</image>
 				</ImageView>
 			</graphic>
 		</ToggleButton>
-		<ScrollPane id="background" fx:id="notificationScrollPane" layoutX="272.0" layoutY="56.0" opacity="0.0" prefHeight="945.0" prefWidth="1541.0" stylesheets="@/notifiaction.css">
+		<ScrollPane id="background" fx:id="notificationScrollPane" layoutX="272.0" layoutY="56.0" opacity="0.0" prefHeight="945.0" prefWidth="1541.0" stylesheets="@/cafe828/desktop/styles/notifiaction.css">
 			<content>
 				<Label fx:id="notificationLabel" text="Label">
 					<padding>

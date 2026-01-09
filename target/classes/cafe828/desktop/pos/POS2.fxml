@@ -14,16 +14,16 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: #E8D9C2;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="POS.POS2Controller">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: #E8D9C2;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cafe828.desktop.pos.POS2Controller">
    <children>
       <Pane layoutX="289.0" layoutY="114.0" prefHeight="946.0" prefWidth="861.0" style="-fx-background-color: #FFFFFF;" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="289.0" AnchorPane.rightAnchor="770.0" AnchorPane.topAnchor="114.0">
          <children>
-            <FlowPane id="details-container" fx:id="orders" alignment="TOP_CENTER" layoutX="35.0" layoutY="25.0" prefHeight="504.0" prefWidth="796.0" stylesheets="@pos.css" AnchorPane.bottomAnchor="20.0">
+            <FlowPane id="details-container" fx:id="orders" alignment="TOP_CENTER" layoutX="35.0" layoutY="25.0" prefHeight="504.0" prefWidth="796.0" stylesheets="@/cafe828/desktop/styles/pos.css" AnchorPane.bottomAnchor="20.0">
                <children>
             
                </children>
             </FlowPane>
-            <Pane id="details-container" fx:id="Totals" layoutX="35.0" layoutY="681.0" prefHeight="173.0" prefWidth="796.0" stylesheets="@pos.css">
+            <Pane id="details-container" fx:id="Totals" layoutX="35.0" layoutY="681.0" prefHeight="173.0" prefWidth="796.0" stylesheets="@/cafe828/desktop/styles/pos.css">
                <children>
                   <HBox layoutX="90.0" layoutY="28.0" spacing="150.0">
                      <children>
@@ -120,12 +120,12 @@
             </HBox>
             <HBox layoutX="34.0" layoutY="870.0" spacing="37.0">
                <children>
-                  <Button id="cancel" fx:id="CancelButton" mnemonicParsing="false" onAction="#handleCancelButtonAction" prefHeight="60.0" prefWidth="380.0" styleClass="confirmation-buttons" stylesheets="@pos.css" text="Cancel Order">
+                  <Button id="cancel" fx:id="CancelButton" mnemonicParsing="false" onAction="#handleCancelButtonAction" prefHeight="60.0" prefWidth="380.0" styleClass="confirmation-buttons" stylesheets="@/cafe828/desktop/styles/pos.css" text="Cancel Order">
                      <font>
                         <Font size="25.0" />
                      </font>
                   </Button>
-                  <Button id="confirm" fx:id="ConfirmButton" mnemonicParsing="false" onAction="#handleConfirmButtonAction" prefHeight="60.0" prefWidth="380.0" styleClass="confirmation-buttons" stylesheets="@pos.css" text="Confirm Payment">
+                  <Button id="confirm" fx:id="ConfirmButton" mnemonicParsing="false" onAction="#handleConfirmButtonAction" prefHeight="60.0" prefWidth="380.0" styleClass="confirmation-buttons" stylesheets="@/cafe828/desktop/styles/pos.css" text="Confirm Payment">
                      <font>
                         <Font size="25.0" />
                      </font>
@@ -136,7 +136,7 @@
       </Pane>
       <Pane layoutX="1171.0" layoutY="114.0" prefHeight="946.0" prefWidth="734.0" style="-fx-background-color: #ffffff;" AnchorPane.rightAnchor="20.0">
          <children>
-            <TextField id="details-container" fx:id="textField" alignment="CENTER_RIGHT" layoutX="12.0" layoutY="118.0" prefHeight="89.0" prefWidth="711.0" promptText="Credit" stylesheets="@pos.css">
+            <TextField id="details-container" fx:id="textField" alignment="CENTER_RIGHT" layoutX="12.0" layoutY="118.0" prefHeight="89.0" prefWidth="711.0" promptText="Credit" stylesheets="@/cafe828/desktop/styles/pos.css">
                <font>
                   <Font size="30.0" />
                </font></TextField>
@@ -146,36 +146,17 @@
                      <children>
                         <HBox spacing="50.0">
                            <children>
-                              <Button mnemonicParsing="false" onAction="#handleNumberButtonClick" styleClass="buttons" stylesheets="@pos.css" text="1">
+                              <Button mnemonicParsing="false" onAction="#handleNumberButtonClick" styleClass="buttons" stylesheets="@/cafe828/desktop/styles/pos.css" text="1">
                                  <font>
                                     <Font size="45.0" />
                                  </font>
                               </Button>
-                              <Button mnemonicParsing="false" onAction="#handleNumberButtonClick" styleClass="buttons" stylesheets="@pos.css" text="2">
+                              <Button mnemonicParsing="false" onAction="#handleNumberButtonClick" styleClass="buttons" stylesheets="@/cafe828/desktop/styles/pos.css" text="2">
                                  <font>
                                     <Font size="45.0" />
                                  </font>
                               </Button>
-                              <Button mnemonicParsing="false" onAction="#handleNumberButtonClick" styleClass="buttons" stylesheets="@pos.css" text="3">
-                                 <font>
-                                    <Font size="45.0" />
-                                 </font>
-                              </Button>
-                           </children>
-                        </HBox>
-                        <HBox spacing="50.0">
-                           <children>
-                              <Button mnemonicParsing="false" onAction="#handleNumberButtonClick" styleClass="buttons" stylesheets="@pos.css" text="4">
-                                 <font>
-                                    <Font size="45.0" />
-                                 </font>
-                              </Button>
-                              <Button mnemonicParsing="false" onAction="#handleNumberButtonClick" styleClass="buttons" stylesheets="@pos.css" text="5">
-                                 <font>
-                                    <Font size="45.0" />
-                                 </font>
-                              </Button>
-                              <Button mnemonicParsing="false" onAction="#handleNumberButtonClick" styleClass="buttons" stylesheets="@pos.css" text="6">
+                              <Button mnemonicParsing="false" onAction="#handleNumberButtonClick" styleClass="buttons" stylesheets="@/cafe828/desktop/styles/pos.css" text="3">
                                  <font>
                                     <Font size="45.0" />
                                  </font>
@@ -184,36 +165,17 @@
                         </HBox>
                         <HBox spacing="50.0">
                            <children>
-                              <Button mnemonicParsing="false" onAction="#handleNumberButtonClick" styleClass="buttons" stylesheets="@pos.css" text="8">
+                              <Button mnemonicParsing="false" onAction="#handleNumberButtonClick" styleClass="buttons" stylesheets="@/cafe828/desktop/styles/pos.css" text="4">
                                  <font>
                                     <Font size="45.0" />
                                  </font>
                               </Button>
-                              <Button mnemonicParsing="false" onAction="#handleNumberButtonClick" styleClass="buttons" stylesheets="@pos.css" text="9">
+                              <Button mnemonicParsing="false" onAction="#handleNumberButtonClick" styleClass="buttons" stylesheets="@/cafe828/desktop/styles/pos.css" text="5">
                                  <font>
                                     <Font size="45.0" />
                                  </font>
                               </Button>
-                              <Button mnemonicParsing="false" onAction="#handleNumberButtonClick" styleClass="buttons" stylesheets="@pos.css" text="7">
-                                 <font>
-                                    <Font size="45.0" />
-                                 </font>
-                              </Button>
-                           </children>
-                        </HBox>
-                        <HBox spacing="50.0">
-                           <children>
-                              <Button mnemonicParsing="false" onAction="#handleNumberButtonClick" styleClass="buttons" stylesheets="@pos.css" text="00">
-                                 <font>
-                                    <Font size="45.0" />
-                                 </font>
-                              </Button>
-                              <Button mnemonicParsing="false" onAction="#handleNumberButtonClick" styleClass="buttons" stylesheets="@pos.css" text="0">
-                                 <font>
-                                    <Font size="45.0" />
-                                 </font>
-                              </Button>
-                              <Button id="backspace" mnemonicParsing="false" onAction="#handleBackspaceClick" styleClass="buttons" stylesheets="@pos.css" text="backspace">
+                              <Button mnemonicParsing="false" onAction="#handleNumberButtonClick" styleClass="buttons" stylesheets="@/cafe828/desktop/styles/pos.css" text="6">
                                  <font>
                                     <Font size="45.0" />
                                  </font>
@@ -222,12 +184,50 @@
                         </HBox>
                         <HBox spacing="50.0">
                            <children>
-                              <Button mnemonicParsing="false" onAction="#handleNumberButtonClick" styleClass="buttons" stylesheets="@pos.css" text=".">
+                              <Button mnemonicParsing="false" onAction="#handleNumberButtonClick" styleClass="buttons" stylesheets="@/cafe828/desktop/styles/pos.css" text="8">
                                  <font>
                                     <Font size="45.0" />
                                  </font>
                               </Button>
-                              <Button id="cancel-button" mnemonicParsing="false" onAction="#handleCancelClick" prefHeight="96.0" prefWidth="410.0" styleClass="buttons" stylesheets="@pos.css" text="Cancel">
+                              <Button mnemonicParsing="false" onAction="#handleNumberButtonClick" styleClass="buttons" stylesheets="@/cafe828/desktop/styles/pos.css" text="9">
+                                 <font>
+                                    <Font size="45.0" />
+                                 </font>
+                              </Button>
+                              <Button mnemonicParsing="false" onAction="#handleNumberButtonClick" styleClass="buttons" stylesheets="@/cafe828/desktop/styles/pos.css" text="7">
+                                 <font>
+                                    <Font size="45.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </HBox>
+                        <HBox spacing="50.0">
+                           <children>
+                              <Button mnemonicParsing="false" onAction="#handleNumberButtonClick" styleClass="buttons" stylesheets="@/cafe828/desktop/styles/pos.css" text="00">
+                                 <font>
+                                    <Font size="45.0" />
+                                 </font>
+                              </Button>
+                              <Button mnemonicParsing="false" onAction="#handleNumberButtonClick" styleClass="buttons" stylesheets="@/cafe828/desktop/styles/pos.css" text="0">
+                                 <font>
+                                    <Font size="45.0" />
+                                 </font>
+                              </Button>
+                              <Button id="backspace" mnemonicParsing="false" onAction="#handleBackspaceClick" styleClass="buttons" stylesheets="@/cafe828/desktop/styles/pos.css" text="backspace">
+                                 <font>
+                                    <Font size="45.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </HBox>
+                        <HBox spacing="50.0">
+                           <children>
+                              <Button mnemonicParsing="false" onAction="#handleNumberButtonClick" styleClass="buttons" stylesheets="@/cafe828/desktop/styles/pos.css" text=".">
+                                 <font>
+                                    <Font size="45.0" />
+                                 </font>
+                              </Button>
+                              <Button id="cancel-button" mnemonicParsing="false" onAction="#handleCancelClick" prefHeight="96.0" prefWidth="410.0" styleClass="buttons" stylesheets="@/cafe828/desktop/styles/pos.css" text="Cancel">
                                  <font>
                                     <Font size="45.0" />
                                  </font>
@@ -245,12 +245,12 @@
                <children>
                   <HBox spacing="40.0">
                      <children>
-                        <Button id="cash-options-buttons" fx:id="cash" mnemonicParsing="false" onAction="#handleCashButtonClick" prefHeight="51.0" prefWidth="300.0" styleClass="top-buttons" stylesheets="@pos.css" text="Cash">
+                        <Button id="cash-options-buttons" fx:id="cash" mnemonicParsing="false" onAction="#handleCashButtonClick" prefHeight="51.0" prefWidth="300.0" styleClass="top-buttons" stylesheets="@/cafe828/desktop/styles/pos.css" text="Cash">
                            <font>
                               <Font size="24.0" />
                            </font>
                         </Button>
-                        <Button id="cash-options-buttons" fx:id="gcash" mnemonicParsing="false" onAction="#handleGcashButtonClick" prefHeight="51.0" prefWidth="300.0" styleClass="top-buttons" stylesheets="@pos.css" text="GCash">
+                        <Button id="cash-options-buttons" fx:id="gcash" mnemonicParsing="false" onAction="#handleGcashButtonClick" prefHeight="51.0" prefWidth="300.0" styleClass="top-buttons" stylesheets="@/cafe828/desktop/styles/pos.css" text="GCash">
                            <font>
                               <Font size="29.0" />
                            </font>
@@ -261,17 +261,17 @@
             </FlowPane>
          </children>
       </Pane>
-      <Button fx:id="backButton" layoutX="200.0" layoutY="114.0" mnemonicParsing="false" onAction="#handleBackButtonAction" prefHeight="53.0" prefWidth="83.0" styleClass="top-buttons" stylesheets="@pos.css" text="Back">
+      <Button fx:id="backButton" layoutX="200.0" layoutY="114.0" mnemonicParsing="false" onAction="#handleBackButtonAction" prefHeight="53.0" prefWidth="83.0" styleClass="top-buttons" stylesheets="@/cafe828/desktop/styles/pos.css" text="Back">
          <font>
             <Font size="20.0" />
          </font></Button>
-      <VBox id="menu-bar" alignment="TOP_CENTER" layoutX="30.0" layoutY="56.0" prefHeight="989.0" prefWidth="125.0" spacing="15.0" stylesheets="@../side-bar-menu-buttons.css">
+      <VBox id="menu-bar" alignment="TOP_CENTER" layoutX="30.0" layoutY="56.0" prefHeight="989.0" prefWidth="125.0" spacing="15.0" stylesheets="@/cafe828/desktop/styles/side-bar-menu-buttons.css">
          <children>
             <Button fx:id="searchButton" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: FAFAFA;">
                <graphic>
                   <ImageView fitHeight="90.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" styleClass="menu-images">
                      <image>
-                        <Image url="@../Images/pos%20selected.png" />
+                        <Image url="@/cafe828/desktop/images/pos%20selected.png" />
                      </image>
                   </ImageView>
                </graphic>
@@ -280,7 +280,7 @@
                <graphic>
                   <ImageView fitHeight="100.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true" styleClass="menu-images">
                      <image>
-                        <Image url="@../images/sidemenubar/Help.png" />
+                        <Image url="@/cafe828/desktop/images/sidemenubar/Help.png" />
                      </image>
                   </ImageView>
                </graphic>
@@ -289,7 +289,7 @@
                <graphic>
                   <ImageView fitHeight="100.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" styleClass="menu-images">
                      <image>
-                        <Image url="@../images/sidemenubar/Logout.png" />
+                        <Image url="@/cafe828/desktop/images/sidemenubar/Logout.png" />
                      </image>
                   </ImageView>
                </graphic>

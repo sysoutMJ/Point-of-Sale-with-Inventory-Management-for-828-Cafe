@@ -24,11 +24,11 @@
          <children>
             <HBox spacing="30.0">
                <children>
-                  <Button fx:id="register_item" contentDisplay="TOP" mnemonicParsing="false" onAction="#goToRegisterItem" prefHeight="290.0" prefWidth="422.0" styleClass="home-buttons" stylesheets="@../../home-page.css" text="Register Item">
+                  <Button fx:id="register_item" contentDisplay="TOP" mnemonicParsing="false" onAction="#goToRegisterItem" prefHeight="290.0" prefWidth="422.0" styleClass="home-buttons" stylesheets="@/cafe828/desktop/styles/home-page.css" text="Register Item">
                      <graphic>
                         <ImageView fitHeight="150.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../../images/homepage/Register.png" />
+                              <Image url="@/cafe828/desktop/images/homepage/Register.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -36,11 +36,11 @@
                         <Font size="30.0" />
                      </font>
                   </Button>
-                  <Button fx:id="maintenance_button" contentDisplay="TOP" mnemonicParsing="false" onAction="#goToMaintenance" prefHeight="290.0" prefWidth="422.0" styleClass="home-buttons" stylesheets="@../../home-page.css" text="Maintenance">
+                  <Button fx:id="maintenance_button" contentDisplay="TOP" mnemonicParsing="false" onAction="#goToMaintenance" prefHeight="290.0" prefWidth="422.0" styleClass="home-buttons" stylesheets="@/cafe828/desktop/styles/home-page.css" text="Maintenance">
                      <graphic>
                         <ImageView fitHeight="150.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../../images/homepage/Maintenance.png" />
+                              <Image url="@/cafe828/desktop/images/homepage/Maintenance.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -48,11 +48,11 @@
                         <Font size="30.0" />
                      </font>
                   </Button>
-                  <Button fx:id="changePass" contentDisplay="TOP" mnemonicParsing="false" onAction="#change_pass" prefHeight="290.0" prefWidth="422.0" styleClass="home-buttons" stylesheets="@../../home-page.css" text="Security">
+                  <Button fx:id="changePass" contentDisplay="TOP" mnemonicParsing="false" onAction="#change_pass" prefHeight="290.0" prefWidth="422.0" styleClass="home-buttons" stylesheets="@/cafe828/desktop/styles/home-page.css" text="Security">
                      <graphic>
                         <ImageView fitHeight="150.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../../images/homepage/Security.png" />
+                              <Image url="@/cafe828/desktop/images/homepage/Security.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -60,11 +60,11 @@
                         <Font size="30.0" />
                      </font>
                   </Button>
-                  <Button fx:id="report_module" contentDisplay="TOP" mnemonicParsing="false" onAction="#goToReport" prefHeight="290.0" prefWidth="422.0" styleClass="home-buttons" stylesheets="@../../home-page.css" text="Report">
+                  <Button fx:id="report_module" contentDisplay="TOP" mnemonicParsing="false" onAction="#goToReport" prefHeight="290.0" prefWidth="422.0" styleClass="home-buttons" stylesheets="@/cafe828/desktop/styles/home-page.css" text="Report">
                      <graphic>
                         <ImageView fitHeight="150.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../../images/homepage/Register.png" />
+                              <Image url="@/cafe828/desktop/images/homepage/Register.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -76,11 +76,11 @@
             </HBox>
             <HBox spacing="30.0">
                <children>
-                  <Button fx:id="search_module" contentDisplay="TOP" mnemonicParsing="false" onAction="#goToSearch" prefHeight="290.0" prefWidth="422.0" styleClass="home-buttons" stylesheets="@../../home-page.css" text="Search">
+                  <Button fx:id="search_module" contentDisplay="TOP" mnemonicParsing="false" onAction="#goToSearch" prefHeight="290.0" prefWidth="422.0" styleClass="home-buttons" stylesheets="@/cafe828/desktop/styles/home-page.css" text="Search">
                      <graphic>
                         <ImageView fitHeight="150.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../../images/homepage/Search.png" />
+                              <Image url="@/cafe828/desktop/images/homepage/Search.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -88,11 +88,11 @@
                         <Font size="30.0" />
                      </font>
                   </Button>
-                  <Button fx:id="help_module" contentDisplay="TOP" mnemonicParsing="false" onAction="#goToHelp" prefHeight="290.0" prefWidth="422.0" styleClass="home-buttons" stylesheets="@../../home-page.css" text="Help">
+                  <Button fx:id="help_module" contentDisplay="TOP" mnemonicParsing="false" onAction="#goToHelp" prefHeight="290.0" prefWidth="422.0" styleClass="home-buttons" stylesheets="@/cafe828/desktop/styles/home-page.css" text="Help">
                      <graphic>
                         <ImageView fitHeight="150.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../../images/homepage/Help.png" />
+                              <Image url="@/cafe828/desktop/images/homepage/Help.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -100,11 +100,11 @@
                         <Font size="30.0" />
                      </font>
                   </Button>
-                  <Button fx:id="about_module" contentDisplay="TOP" mnemonicParsing="false" onAction="#goToAbout" prefHeight="290.0" prefWidth="422.0" styleClass="home-buttons" stylesheets="@../../home-page.css" text="About">
+                  <Button fx:id="about_module" contentDisplay="TOP" mnemonicParsing="false" onAction="#goToAbout" prefHeight="290.0" prefWidth="422.0" styleClass="home-buttons" stylesheets="@/cafe828/desktop/styles/home-page.css" text="About">
                      <graphic>
                         <ImageView fitHeight="150.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../../images/homepage/About.png" />
+                              <Image url="@/cafe828/desktop/images/homepage/About.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -112,11 +112,11 @@
                         <Font size="30.0" />
                      </font>
                   </Button>
-                  <Button fx:id="logout_module" contentDisplay="TOP" mnemonicParsing="false" onAction="#goToLogout" prefHeight="290.0" prefWidth="422.0" styleClass="home-buttons" stylesheets="@../../home-page.css" text="Log out">
+                  <Button fx:id="logout_module" contentDisplay="TOP" mnemonicParsing="false" onAction="#goToLogout" prefHeight="290.0" prefWidth="422.0" styleClass="home-buttons" stylesheets="@/cafe828/desktop/styles/home-page.css" text="Log out">
                      <graphic>
                         <ImageView fitHeight="150.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../../images/homepage/Log%20out.png" />
+                              <Image url="@/cafe828/desktop/images/homepage/Log%20out.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -128,16 +128,16 @@
             </HBox>
          </children>
       </VBox>
-      <ToggleButton id="right-notification-button" fx:id="notificationToggleButton" layoutX="1814.0" layoutY="56.0" mnemonicParsing="false" onAction="#getNotification" prefHeight="75.0" prefWidth="75.0" stylesheets="@../../top-menu-buttons.css">
+      <ToggleButton id="right-notification-button" fx:id="notificationToggleButton" layoutX="1814.0" layoutY="56.0" mnemonicParsing="false" onAction="#getNotification" prefHeight="75.0" prefWidth="75.0" stylesheets="@/cafe828/desktop/styles/top-menu-buttons.css">
          <graphic>
             <ImageView fitHeight="75.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../images/topmenubar/Notifications.png" />
+                  <Image url="@/cafe828/desktop/images/topmenubar/Notifications.png" />
                </image>
             </ImageView>
          </graphic>
       </ToggleButton>
-      <ScrollPane id="background" fx:id="notificationScrollPane" layoutX="272.0" layoutY="56.0" prefHeight="945.0" prefWidth="1541.0" stylesheets="@/notifiaction.css">
+      <ScrollPane id="background" fx:id="notificationScrollPane" layoutX="272.0" layoutY="56.0" prefHeight="945.0" prefWidth="1541.0" stylesheets="@/cafe828/desktop/styles/notifiaction.css">
          <content>
             <Label fx:id="notificationLabel" text="Label">
                <padding>

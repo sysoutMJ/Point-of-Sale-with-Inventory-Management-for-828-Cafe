@@ -5,11 +5,11 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<HBox id="low-stock-notification-hbox" alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" xmlns:fx="http://javafx.com/fxml" fx:controller="notification.controller.LowStockNotificationController" stylesheets="/notification.css">
+<HBox id="low-stock-notification-hbox" alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" xmlns:fx="http://javafx.com/fxml" fx:controller="cafe828.desktop.notification.LowStockNotificationController" stylesheets="@/cafe828/desktop/styles/notifiaction.css">
     <children>
         <ImageView fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
             <image>
-                <Image url="/images/notifications/LowStockWarning.png"/>
+                <Image url="/cafe828/desktop/images/notifications/LowStockWarning.png"/>
             </image>
         </ImageView>
         <Label prefHeight="57.0" prefWidth="230.0" styleClass="warning-label" text="Low Stock:">
@@ -26,7 +26,7 @@
             <graphic>
                 <ImageView fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
                     <image>
-                        <Image url="/images/notifications/CloseButton.png"/>
+                        <Image url="/cafe828/desktop/images/notifications/CloseButton.png"/>
                     </image>
                 </ImageView>
             </graphic>

@@ -8,9 +8,9 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="background" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="1141.0" styleClass="main-frame" stylesheets="@../../../../dialogue-boxes.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="maintenance.setitemstatus.controller.DialogueBoxesController">
+<AnchorPane id="background" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="1141.0" styleClass="main-frame" stylesheets="@/cafe828/desktop/styles/dialogue-boxes.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cafe828.desktop.maintenance.setitemstatus.DialogueBoxesController">
    <children>
-      <Label layoutX="56.0" layoutY="63.0" styleClass="error-label" stylesheets="@../../../../dialogue-boxes.css" text="Confirm activating Item?">
+      <Label layoutX="56.0" layoutY="63.0" styleClass="error-label" stylesheets="@/cafe828/desktop/styles/dialogue-boxes.css" text="Confirm activating Item?">
          <font>
             <Font name="System Bold" size="52.0" />
          </font>
@@ -19,10 +19,10 @@
          <children>
             <ImageView fitHeight="90.0" fitWidth="90.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../../images/dialogueboxes/Info.png" />
+                  <Image url="@/cafe828/desktop/images/dialogueboxes/Info.png" />
                </image>
             </ImageView>
-            <Label styleClass="message-label" stylesheets="@../../../../notification.css" text="Activation of Item will happen in real time.">
+            <Label styleClass="message-label" stylesheets="@/cafe828/desktop/styles/notifiaction.css" text="Activation of Item will happen in real time.">
                <font>
                   <Font size="30.0" />
                </font>
@@ -31,8 +31,8 @@
       </HBox>
       <HBox layoutX="731.0" layoutY="280.0" prefHeight="54.0" prefWidth="340.0" spacing="30.0">
          <children>
-            <Button fx:id="cancelButton" alignment="CENTER" mnemonicParsing="false" onAction="#cancel" prefHeight="90.0" prefWidth="170.0" styleClass="cancel-button" stylesheets="@../../../../dialogue-boxes.css" text="Cancel" />
-            <Button fx:id="confirmButton" alignment="CENTER" mnemonicParsing="false" onAction="#confirm" prefHeight="90.0" prefWidth="170.0" styleClass="confirm-button" stylesheets="@../../../../dialogue-boxes.css" text="Confirm" />
+            <Button fx:id="cancelButton" alignment="CENTER" mnemonicParsing="false" onAction="#cancel" prefHeight="90.0" prefWidth="170.0" styleClass="cancel-button" stylesheets="@/cafe828/desktop/styles/dialogue-boxes.css" text="Cancel" />
+            <Button fx:id="confirmButton" alignment="CENTER" mnemonicParsing="false" onAction="#confirm" prefHeight="90.0" prefWidth="170.0" styleClass="confirm-button" stylesheets="@/cafe828/desktop/styles/dialogue-boxes.css" text="Confirm" />
          </children>
       </HBox>
    </children>

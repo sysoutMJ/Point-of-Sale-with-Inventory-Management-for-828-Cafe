@@ -21,87 +21,87 @@
 
 <Pane id="overlayPane" fx:id="overlayPane" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cafe828.desktop.search.SearchInventoryController">
    <children>
-      <AnchorPane id="main-frame-bg" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" stylesheets="@../search.css">
+      <AnchorPane id="main-frame-bg" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" stylesheets="@/cafe828/desktop/styles/search.css">
       	<children>
-            <VBox id="menu-bar" alignment="CENTER" layoutX="30.0" layoutY="56.0" prefHeight="989.0" prefWidth="125.0" spacing="5.0" stylesheets="@../../side-bar-menu-buttons.css">
+            <VBox id="menu-bar" alignment="CENTER" layoutX="30.0" layoutY="56.0" prefHeight="989.0" prefWidth="125.0" spacing="5.0" stylesheets="@/cafe828/desktop/styles/side-bar-menu-buttons.css">
                <children>
-                  <Button fx:id="homeButton" mnemonicParsing="false" onAction="#goToHome" prefHeight="100.0" prefWidth="100.0" styleClass="menu-bar-buttons" stylesheets="@../../side-bar-menu-buttons.css">
+                  <Button fx:id="homeButton" mnemonicParsing="false" onAction="#goToHome" prefHeight="100.0" prefWidth="100.0" styleClass="menu-bar-buttons" stylesheets="@/cafe828/desktop/styles/side-bar-menu-buttons.css">
                      <graphic>
                         <ImageView fitHeight="100.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" styleClass="menu-images">
                            <image>
-                              <Image url="@../../images/sidemenubar/Home.png" />
+                              <Image url="@/cafe828/desktop/images/sidemenubar/Home.png" />
                            </image>
                         </ImageView>
                      </graphic>
                   </Button>
-                  <Button fx:id="searchButton" mnemonicParsing="false" onAction="#goToSearch" prefHeight="100.0" prefWidth="100.0" styleClass="menu-bar-buttons" stylesheets="@../../side-bar-menu-buttons.css">
+                  <Button fx:id="searchButton" mnemonicParsing="false" onAction="#goToSearch" prefHeight="100.0" prefWidth="100.0" styleClass="menu-bar-buttons" stylesheets="@/cafe828/desktop/styles/side-bar-menu-buttons.css">
                      <graphic>
                         <ImageView fitHeight="122.0" fitWidth="99.0" pickOnBounds="true" preserveRatio="true" styleClass="menu-images">
                            <image>
-                              <Image url="@../../images/sidemenubar/search_selected.png" />
+                              <Image url="@/cafe828/desktop/images/sidemenubar/search_selected.png" />
                            </image>
                         </ImageView>
                      </graphic>
                   </Button>
-                  <Button fx:id="registerItemButton" mnemonicParsing="false" onAction="#goToRegisterItem" prefHeight="100.0" prefWidth="100.0" styleClass="menu-bar-buttons" stylesheets="@../../side-bar-menu-buttons.css">
+                  <Button fx:id="registerItemButton" mnemonicParsing="false" onAction="#goToRegisterItem" prefHeight="100.0" prefWidth="100.0" styleClass="menu-bar-buttons" stylesheets="@/cafe828/desktop/styles/side-bar-menu-buttons.css">
                      <graphic>
                         <ImageView fitHeight="215.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" styleClass="menu-images">
                            <image>
-                              <Image url="@../../images/sidemenubar/Register_item.png" />
+                              <Image url="@/cafe828/desktop/images/sidemenubar/Register_item.png" />
                            </image>
                         </ImageView>
                      </graphic>
                   </Button>
-                  <Button fx:id="maintenanceButton" mnemonicParsing="false" onAction="#goToMaintenance" prefHeight="100.0" prefWidth="100.0" styleClass="menu-bar-buttons" stylesheets="@../../side-bar-menu-buttons.css">
+                  <Button fx:id="maintenanceButton" mnemonicParsing="false" onAction="#goToMaintenance" prefHeight="100.0" prefWidth="100.0" styleClass="menu-bar-buttons" stylesheets="@/cafe828/desktop/styles/side-bar-menu-buttons.css">
                      <graphic>
                         <ImageView fitHeight="100.0" fitWidth="95.0" pickOnBounds="true" preserveRatio="true" styleClass="menu-images">
                            <image>
-                              <Image url="@../../images/sidemenubar/Maintenance.png" />
+                              <Image url="@/cafe828/desktop/images/sidemenubar/Maintenance.png" />
                            </image>
                         </ImageView>
                      </graphic>
                   </Button>
-                  <Button fx:id="securityButton" mnemonicParsing="false" onAction="#goToSecurity" prefHeight="100.0" prefWidth="100.0" styleClass="menu-bar-buttons" stylesheets="@../../side-bar-menu-buttons.css">
+                  <Button fx:id="securityButton" mnemonicParsing="false" onAction="#goToSecurity" prefHeight="100.0" prefWidth="100.0" styleClass="menu-bar-buttons" stylesheets="@/cafe828/desktop/styles/side-bar-menu-buttons.css">
                      <graphic>
                         <ImageView fitHeight="100.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true" styleClass="menu-images">
                            <image>
-                              <Image url="@../../images/sidemenubar/Security.png" />
+                              <Image url="@/cafe828/desktop/images/sidemenubar/Security.png" />
                            </image>
                         </ImageView>
                      </graphic>
                   </Button>
-                  <Button fx:id="reportButton" mnemonicParsing="false" onAction="#goToReport" prefHeight="100.0" prefWidth="100.0" styleClass="menu-bar-buttons" stylesheets="@../../side-bar-menu-buttons.css">
+                  <Button fx:id="reportButton" mnemonicParsing="false" onAction="#goToReport" prefHeight="100.0" prefWidth="100.0" styleClass="menu-bar-buttons" stylesheets="@/cafe828/desktop/styles/side-bar-menu-buttons.css">
                      <graphic>
                         <ImageView fitHeight="100.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" styleClass="menu-images">
                            <image>
-                              <Image url="@../../images/sidemenubar/Report.png" />
+                              <Image url="@/cafe828/desktop/images/sidemenubar/Report.png" />
                            </image>
                         </ImageView>
                      </graphic>
                   </Button>
-                  <Button fx:id="helpButton" mnemonicParsing="false" onAction="#goToHelp" prefHeight="100.0" prefWidth="100.0" styleClass="menu-bar-buttons" stylesheets="@../../side-bar-menu-buttons.css">
+                  <Button fx:id="helpButton" mnemonicParsing="false" onAction="#goToHelp" prefHeight="100.0" prefWidth="100.0" styleClass="menu-bar-buttons" stylesheets="@/cafe828/desktop/styles/side-bar-menu-buttons.css">
                      <graphic>
                         <ImageView fitHeight="100.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" styleClass="menu-images">
                            <image>
-                              <Image url="@../../images/sidemenubar/Help.png" />
+                              <Image url="@/cafe828/desktop/images/sidemenubar/Help.png" />
                            </image>
                         </ImageView>
                      </graphic>
                   </Button>
-                  <Button fx:id="aboutButton" mnemonicParsing="false" onAction="#goToAbout" prefHeight="100.0" prefWidth="100.0" styleClass="menu-bar-buttons" stylesheets="@../../side-bar-menu-buttons.css">
+                  <Button fx:id="aboutButton" mnemonicParsing="false" onAction="#goToAbout" prefHeight="100.0" prefWidth="100.0" styleClass="menu-bar-buttons" stylesheets="@/cafe828/desktop/styles/side-bar-menu-buttons.css">
                      <graphic>
                         <ImageView fitHeight="100.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" styleClass="menu-images">
                            <image>
-                              <Image url="@../../images/sidemenubar/About.png" />
+                              <Image url="@/cafe828/desktop/images/sidemenubar/About.png" />
                            </image>
                         </ImageView>
                      </graphic>
                   </Button>
-                  <Button fx:id="logoutButton" mnemonicParsing="false" onAction="#goToLogout" prefHeight="100.0" prefWidth="100.0" styleClass="menu-bar-buttons" stylesheets="@../../side-bar-menu-buttons.css">
+                  <Button fx:id="logoutButton" mnemonicParsing="false" onAction="#goToLogout" prefHeight="100.0" prefWidth="100.0" styleClass="menu-bar-buttons" stylesheets="@/cafe828/desktop/styles/side-bar-menu-buttons.css">
                      <graphic>
                         <ImageView fitHeight="100.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" styleClass="menu-images">
                            <image>
-                              <Image url="@../../images/sidemenubar/Logout.png" />
+                              <Image url="@/cafe828/desktop/images/sidemenubar/Logout.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -110,7 +110,7 @@
             </VBox>
             <HBox layoutX="190.0" layoutY="56.0" spacing="10.0">
                <children>
-                  <Button id="on-page-button" fx:id="goToSearchInventoryButton" mnemonicParsing="false" onAction="#goToSearchInventory" styleClass="top-buttons" stylesheets="@../../top-menu-buttons.css" text="Search Inventory">
+                  <Button id="on-page-button" fx:id="goToSearchInventoryButton" mnemonicParsing="false" onAction="#goToSearchInventory" styleClass="top-buttons" stylesheets="@/cafe828/desktop/styles/top-menu-buttons.css" text="Search Inventory">
                      <font>
                         <Font size="20.0" />
                      </font>
@@ -118,7 +118,7 @@
                         <Insets bottom="10.0" left="40.0" right="40.0" top="10.0" />
                      </padding>
                   </Button>
-                  <Button fx:id="goToSearchLogsButton" mnemonicParsing="false" onAction="#goToSearchLogs" styleClass="top-buttons" stylesheets="@../../top-menu-buttons.css" text="Search Logs">
+                  <Button fx:id="goToSearchLogsButton" mnemonicParsing="false" onAction="#goToSearchLogs" styleClass="top-buttons" stylesheets="@/cafe828/desktop/styles/top-menu-buttons.css" text="Search Logs">
                      <font>
                         <Font size="20.0" />
                      </font>
@@ -132,42 +132,42 @@
       </AnchorPane>
       <HBox layoutX="189.0" layoutY="150.0" prefHeight="107.0" prefWidth="1457.0" spacing="20.0">
          <children>
-            <VBox prefHeight="107.0" prefWidth="279.0" stylesheets="@../search.css">
+            <VBox prefHeight="107.0" prefWidth="279.0" stylesheets="@/cafe828/desktop/styles/search.css">
                <children>
-                  <Label styleClass="label-above-textfields" stylesheets="@../search.css" text="Search by:" />
+                  <Label styleClass="label-above-textfields" stylesheets="@/cafe828/desktop/styles/search.css" text="Search by:" />
                   <HBox prefHeight="73.0" prefWidth="274.0" spacing="10.0">
                      <children>
-                        <MenuButton fx:id="searchByMenuButton" mnemonicParsing="false" prefHeight="73.0" prefWidth="276.0" styleClass="textfield-input" stylesheets="@../search.css" />
+                        <MenuButton fx:id="searchByMenuButton" mnemonicParsing="false" prefHeight="73.0" prefWidth="276.0" styleClass="textfield-input" stylesheets="@/cafe828/desktop/styles/search.css" />
                      </children>
                   </HBox>
                </children>
             </VBox>
-            <VBox prefHeight="107.0" prefWidth="279.0" stylesheets="@../search.css">
+            <VBox prefHeight="107.0" prefWidth="279.0" stylesheets="@/cafe828/desktop/styles/search.css">
                <children>
-                  <Label styleClass="label-above-textfields" stylesheets="@../search.css" text="Sort by:" />
+                  <Label styleClass="label-above-textfields" stylesheets="@/cafe828/desktop/styles/search.css" text="Sort by:" />
                   <HBox prefHeight="73.0" prefWidth="304.0" spacing="10.0">
                      <children>
-                        <MenuButton fx:id="sortByMenuButton" mnemonicParsing="false" prefHeight="73.0" prefWidth="276.0" styleClass="textfield-input" stylesheets="@../search.css" />
+                        <MenuButton fx:id="sortByMenuButton" mnemonicParsing="false" prefHeight="73.0" prefWidth="276.0" styleClass="textfield-input" stylesheets="@/cafe828/desktop/styles/search.css" />
                      </children>
                   </HBox>
                </children>
             </VBox>
             <VBox>
                <children>
-                  <Label styleClass="label-above-textfields" stylesheets="@../search.css" text="Enter what to search:" />
-                  <HBox spacing="10.0" stylesheets="@../search.css">
+                  <Label styleClass="label-above-textfields" stylesheets="@/cafe828/desktop/styles/search.css" text="Enter what to search:" />
+                  <HBox spacing="10.0" stylesheets="@/cafe828/desktop/styles/search.css">
                      <children>
                         <StackPane>
                            <children>
-                              <DatePicker fx:id="datePicker" prefHeight="75.0" prefWidth="646.0" styleClass="textfield-input" stylesheets="@../search.css" />
-                              <TextField fx:id="searchTextField" prefHeight="75.0" prefWidth="646.0" styleClass="textfield-input" stylesheets="@../search.css">
+                              <DatePicker fx:id="datePicker" prefHeight="75.0" prefWidth="646.0" styleClass="textfield-input" stylesheets="@/cafe828/desktop/styles/search.css" />
+                              <TextField fx:id="searchTextField" prefHeight="75.0" prefWidth="646.0" styleClass="textfield-input" stylesheets="@/cafe828/desktop/styles/search.css">
                                  <font>
                                     <Font size="35.0" />
                                  </font>
                               </TextField>
                            </children>
                         </StackPane>
-                        <Button id="check-button" fx:id="checkButton" mnemonicParsing="false" onAction="#search_inventory_item" prefHeight="77.0" prefWidth="161.0" stylesheets="@../search.css" text="Check" />
+                        <Button id="check-button" fx:id="checkButton" mnemonicParsing="false" onAction="#search_inventory_item" prefHeight="77.0" prefWidth="161.0" stylesheets="@/cafe828/desktop/styles/search.css" text="Check" />
                      </children>
                   </HBox>
                </children>
@@ -200,19 +200,19 @@
       <ToggleButton id="right-notification-button"
 		fx:id="notificationToggleButton" layoutX="1814.0" layoutY="56.0"
 		mnemonicParsing="false" onAction="#getNotification" prefHeight="75.0"
-		prefWidth="75.0" stylesheets="@/top-menu-buttons.css">
+		prefWidth="75.0" stylesheets="@/cafe828/desktop/styles/top-menu-buttons.css">
 		<graphic>
 			<ImageView fitHeight="75.0" fitWidth="50.0"
 				pickOnBounds="true" preserveRatio="true">
 				<image>
-					<Image url="@/images/topmenubar/Notifications.png" />
+					<Image url="@/cafe828/desktop/images/topmenubar/Notifications.png" />
 				</image>
 			</ImageView>
 		</graphic>
 	</ToggleButton>
 	<ScrollPane id="background" fx:id="notificationScrollPane"
 		layoutX="272.0" layoutY="56.0" prefHeight="945.0" prefWidth="1541.0"
-		stylesheets="@/notifiaction.css">
+		stylesheets="@/cafe828/desktop/styles/notifiaction.css">
 		<content>
 			<Label fx:id="notificationLabel" text="Label">
 				<padding>

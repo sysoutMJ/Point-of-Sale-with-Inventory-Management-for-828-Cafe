@@ -10,9 +10,9 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="788.0" prefWidth="1005.0" styleClass="main-frame" stylesheets="@../../../dialogue-boxes.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="maintenance.createmenu.controller.AddIngredientController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="788.0" prefWidth="1005.0" styleClass="main-frame" stylesheets="@/cafe828/desktop/styles/dialogue-boxes.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cafe828.desktop.maintenance.createmenu.AddIngredientController">
    <children>
-      <Button fx:id="confirmButton" alignment="CENTER" layoutX="815.0" layoutY="526.0" mnemonicParsing="false" onAction="#confirmAction" prefHeight="54.0" prefWidth="170.0" styleClass="confirm-button" stylesheets="@../../../dialogue-boxes.css" text="Confirm" AnchorPane.bottomAnchor="40.0" AnchorPane.rightAnchor="50.0" />
+      <Button fx:id="confirmButton" alignment="CENTER" layoutX="815.0" layoutY="526.0" mnemonicParsing="false" onAction="#confirmAction" prefHeight="54.0" prefWidth="170.0" styleClass="confirm-button" stylesheets="@/cafe828/desktop/styles/dialogue-boxes.css" text="Confirm" AnchorPane.bottomAnchor="40.0" AnchorPane.rightAnchor="50.0" />
       <FlowPane layoutX="-30.0" layoutY="147.0" prefHeight="321.0" prefWidth="621.0" style="-fx-background-color: DCDCDC;" AnchorPane.bottomAnchor="250.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="100.0">
          <children>
             <VBox prefHeight="491.0" prefWidth="194.0" spacing="5.0">
@@ -43,15 +43,15 @@
             </VBox>
          </children>
       </FlowPane>
-      <Label layoutX="50.0" layoutY="14.0" styleClass="error-label" stylesheets="@../../../dialogue-boxes.css" text="Add Ingredients">
+      <Label layoutX="50.0" layoutY="14.0" styleClass="error-label" stylesheets="@/cafe828/desktop/styles/dialogue-boxes.css" text="Add Ingredients">
          <font>
             <Font size="59.0" />
          </font>
       </Label>
       <VBox layoutX="375.0" layoutY="576.0" prefHeight="100.0" prefWidth="580.0">
          <children>
-            <Label styleClass="label-above-textfields" stylesheets="@../../restock/view/restock.css" text="Enter quantity needed" />
-            <TextField fx:id="quantityNeeded" alignment="CENTER_RIGHT" prefHeight="84.0" prefWidth="580.0" style="-fx-background-color: DCDCDC;" styleClass="textfield-input" stylesheets="@../../restock/view/restock.css">
+            <Label styleClass="label-above-textfields" stylesheets="@/cafe828/desktop/styles/restock.css" text="Enter quantity needed" />
+            <TextField fx:id="quantityNeeded" alignment="CENTER_RIGHT" prefHeight="84.0" prefWidth="580.0" style="-fx-background-color: DCDCDC;" styleClass="textfield-input" stylesheets="@/cafe828/desktop/styles/restock.css">
                <font>
                   <Font size="39.0" />
                </font></TextField>
@@ -59,8 +59,8 @@
       </VBox>
       <VBox layoutX="50.0" layoutY="576.0" prefHeight="100.0" prefWidth="300.0">
          <children>
-            <Label styleClass="label-above-textfields" stylesheets="@../../restock/view/restock.css" text="Unit Of Measurement" />
-            <MenuButton fx:id="unitofMeasurement" mnemonicParsing="false" styleClass="long-dropdown-menu-button" stylesheets="@../../restock/view/restock.css" />
+            <Label styleClass="label-above-textfields" stylesheets="@/cafe828/desktop/styles/restock.css" text="Unit Of Measurement" />
+            <MenuButton fx:id="unitofMeasurement" mnemonicParsing="false" styleClass="long-dropdown-menu-button" stylesheets="@/cafe828/desktop/styles/restock.css" />
          </children>
       </VBox>
    </children>

@@ -5,11 +5,11 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<HBox id="expired-notification-hbox" alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" xmlns:fx="http://javafx.com/fxml" stylesheets="@../../notifiaction.css">
+<HBox id="expired-notification-hbox" alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" xmlns:fx="http://javafx.com/fxml" stylesheets="@/cafe828/desktop/styles/notifiaction.css">
     <children>
         <ImageView fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
             <image>
-                <Image url="@../../images/notifications/Expired.png"/>
+                <Image url="@/cafe828/desktop/images/notifications/Expired.png"/>
             </image>
         </ImageView>
         <Label prefHeight="57.0" prefWidth="182.0" styleClass="warning-label" text="Expired:">
@@ -26,7 +26,7 @@
             <graphic>
                 <ImageView fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
                     <image>
-                        <Image url="@../../images/notifications/close%20button.png"/>
+                        <Image url="/cafe828/desktop/images/notifications/close%20button.png"/>
                     </image>
                 </ImageView>
             </graphic>

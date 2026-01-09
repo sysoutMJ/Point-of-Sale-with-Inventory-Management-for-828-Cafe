@@ -18,7 +18,7 @@
    <children>
       <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: E8D9C2;">
          <children>
-            <Button fx:id="confirm" layoutX="900.0" layoutY="919.0" mnemonicParsing="false" onAction="#logins" prefHeight="75.0" prefWidth="187.0" styleClass="confirm-button" stylesheets="@Login.css" text="Log in">
+            <Button fx:id="confirm" layoutX="900.0" layoutY="919.0" mnemonicParsing="false" onAction="#logins" prefHeight="75.0" prefWidth="187.0" styleClass="confirm-button" stylesheets="@/cafe828/desktop/styles/Login.css" text="Log in">
                <font>
                   <Font size="40.0" />
                </font>
@@ -30,7 +30,7 @@
                <children>
                   <VBox>
                      <children>
-                        <Label styleClass="message-label" stylesheets="@Login.css" text="Username">
+                        <Label styleClass="message-label" stylesheets="@/cafe828/desktop/styles/Login.css" text="Username">
                            <font>
                               <Font size="25.0" />
                            </font>
@@ -50,7 +50,7 @@
                   </VBox>
                   <VBox>
                      <children>
-                        <Label styleClass="message-label" stylesheets="@Login.css" text="Password">
+                        <Label styleClass="message-label" stylesheets="@/cafe828/desktop/styles/Login.css" text="Password">
                            <font>
                               <Font size="25.0" />
                            </font>
@@ -69,7 +69,7 @@
             </VBox>
             <ImageView fx:id="logo" fitHeight="407.0" fitWidth="481.0" layoutX="809.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../Images/Logo.png" />
+                  <Image url="@/cafe828/desktop/images/Logo.png" />
                </image>
             </ImageView>
       	<Button fx:id="forgotPassButton" alignment="TOP_LEFT" layoutX="1141.0" layoutY="798.0" mnemonicParsing="false" onAction="#forgotPass" prefHeight="51.0" prefWidth="221.0" style="-fx-background-color: E8D9C2; -fx-background-radius: 10;" text="Forgot Password?" underline="true">
