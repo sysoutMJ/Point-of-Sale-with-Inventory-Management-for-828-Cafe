@@ -93,7 +93,7 @@ public class LoginController {
 
     private void showUserTypeDialog() {
         try {
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("/Security/View/ChooseAccountForgotPassView.fxml"));
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/cafe828/desktop/security/ChooseAccountForgotPassView.fxml"));
             Parent root = loader.load();
 
             ChooseAccountForgotPassDialogueBoxController controller = loader.getController();
@@ -500,10 +500,10 @@ public class LoginController {
             	Main.setLoggedIn(true);
                 if ("admin".equals(role)) {
                     logUserTrail(username, "Login");
-                    loadMainFXML("/Admin/view/AdminMenuView.fxml");
+                    loadMainFXML("/cafe828/desktop/admin/AdminMenuView.fxml");
                 } else if ("staff".equals(role)) {
                     logUserTrail(username, "Login");
-                    loadMainFXML("/POS/POS.fxml");
+                    loadMainFXML("/cafe828/desktop/pos/POS.fxml");
                 } else {
                     // Handle other roles if needed
                 }
@@ -582,7 +582,7 @@ public class LoginController {
     private void showwrongUsernameOrPasswordDialog() {
 		try {
 			FXMLLoader loader = new FXMLLoader(
-					getClass().getResource("/Security/View/WrongUsernameOrPasswordView.fxml"));
+					getClass().getResource("/cafe828/desktop/security/WrongUsernameOrPasswordView.fxml"));
 			Parent root = loader.load();
 
 			Stage stage = new Stage();

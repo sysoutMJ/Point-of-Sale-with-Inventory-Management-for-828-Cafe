@@ -18,17 +18,17 @@ public class Main extends Application {
 	@Override
 	public void start(Stage primaryStage) {
 		try {
+			Font.loadFont(getClass().getResourceAsStream("/cafe828/desktop/fonts/Angkor-Regular.ttf"), 14);
+			Font.loadFont(getClass().getResourceAsStream("/cafe828/desktop/fonts/Barlow-Bold.ttf"), 14);
+			Font.loadFont(getClass().getResourceAsStream("/cafe828/desktop/fonts/Barlow-Regular.ttf"), 14);
+			Font.loadFont(getClass().getResourceAsStream("/cafe828/desktop/fonts/NotoSans-Bold.ttf"), 14);
 			
-			Font.loadFont(getClass().getResourceAsStream("/Fonts/Angkor-Regular.ttf"), 14);
-			Font.loadFont(getClass().getResourceAsStream("/Fonts/Barlow-Bold.ttf"), 14);
-			Font.loadFont(getClass().getResourceAsStream("/Fonts/Barlow-Regular.ttf"), 14);
-			Font.loadFont(getClass().getResourceAsStream("/Fonts/NotoSans-Bold.ttf"), 14);
-			
-			Parent root = FXMLLoader.load(getClass().getResource("/Security/View/V_Login.fxml"));
+			Parent root = FXMLLoader.load(getClass().getResource("/cafe828/desktop/security/V_Login.fxml"));
 			Scene scene = new Scene(root);
 			
 			primaryStage.setScene(scene);
 			primaryStage.show();
+
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -46,16 +46,16 @@ public class Main extends Application {
 	
 	private void backupDatabase() throws IOException, InterruptedException {
         // Set the backup file path with a timestamp
-        String backupDirectory = "C:/Backup"; // Change to your backup directory
+        String backupDirectory = "K:\\Projects\\828Cafe_Backup"; // Change to your backup directory
         String databaseName = "828cafe";
         String timestamp = new SimpleDateFormat("yyyyMMddHHmmss").format(new Date());
         String backupFilePath = backupDirectory + "/" + databaseName + "_backup_" + timestamp + ".sql";
 
         // Execute mysqldump command to backup the database
         String[] command = new String[]{
-        		 "C:\\Program Files\\MySQL\\MySQL Server 8.0\\bin\\mysqldump.exe", // Adjust the path to your mysqldump
+        		 "K:\\MySQL\\MySQL Server 8.4\\bin\\mysqldump.exe", // Adjust the path to your mysqldump
                 "-u", "828Cafe", // Replace with your MySQL username
-                "-p828Cafe!", // Replace with your MySQL password
+                "-pCafe828#2026", // Replace with your MySQL password
                 databaseName,
                 "-r", backupFilePath
         };
