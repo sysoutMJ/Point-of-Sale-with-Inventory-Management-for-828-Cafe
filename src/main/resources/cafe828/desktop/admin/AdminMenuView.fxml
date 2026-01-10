@@ -116,7 +116,7 @@
                      <graphic>
                         <ImageView fitHeight="150.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@/cafe828/desktop/images/homepage/Log%20out.png" />
+                              <Image url="@/cafe828/desktop/images/homepage/Log-out.png" />
                            </image>
                         </ImageView>
                      </graphic>

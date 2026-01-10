@@ -14,7 +14,7 @@
          <children>
             <ImageView fitHeight="72.0" fitWidth="84.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@/cafe828/desktop/images/dialogueboxes/Box%20Important.png" />
+                  <Image url="@/cafe828/desktop/images/dialogueboxes/Box-Important.png" />
                </image>
             </ImageView>
             <Label styleClass="error-label" stylesheets="@/cafe828/desktop/styles/dialogue-boxes.css" text="Invalid account.">

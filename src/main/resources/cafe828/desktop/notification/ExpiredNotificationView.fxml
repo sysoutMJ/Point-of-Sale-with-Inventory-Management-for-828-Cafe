@@ -26,7 +26,7 @@
             <graphic>
                 <ImageView fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
                     <image>
-                        <Image url="/cafe828/desktop/images/notifications/close%20button.png"/>
+                        <Image url="/cafe828/desktop/images/notifications/close-button.png"/>
                     </image>
                 </ImageView>
             </graphic>
