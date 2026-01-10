@@ -45,7 +45,7 @@
                      <graphic>
                         <ImageView fitHeight="215.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" styleClass="menu-images">
                            <image>
-                              <Image url="@/cafe828/desktop/images/sidemenubar/Register%20Item%20Selected.png" />
+                              <Image url="@/cafe828/desktop/images/sidemenubar/Register-Item-Selected.png" />
                            </image>
                         </ImageView>
                      </graphic>

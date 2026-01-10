@@ -271,7 +271,7 @@
                <graphic>
                   <ImageView fitHeight="90.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" styleClass="menu-images">
                      <image>
-                        <Image url="@/cafe828/desktop/images/pos%20selected.png" />
+                        <Image url="@/cafe828/desktop/images/pos-selected.png" />
                      </image>
                   </ImageView>
                </graphic>
