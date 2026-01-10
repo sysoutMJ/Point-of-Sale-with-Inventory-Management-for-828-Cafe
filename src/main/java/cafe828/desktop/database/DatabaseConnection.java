@@ -4,17 +4,17 @@ public class DatabaseConnection {
 	
 	// Can be edited based on the user's MySQL Database.
 	
-	private final String url = "jdbc:mysql://localhost:3306/828cafe";
-    private final String username = "828Cafe";
-    private final String password = "828Cafe!";
+	private final String URL = "jdbc:mysql://localhost:3306/828cafe?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC";
+    private final String USERNAME = "828Cafe";
+    private final String PASSWORD = "Cafe828#2026";
     
 	public String getUrl() {
-		return url;
+		return URL;
 	}
 	public String getUsername() {
-		return username;
+		return USERNAME;
 	}
 	public String getPassword() {
-		return password;
+		return PASSWORD;
 	}
 }
