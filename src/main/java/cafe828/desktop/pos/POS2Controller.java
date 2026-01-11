@@ -390,7 +390,7 @@ public class POS2Controller implements Initializable {
 	@FXML
 	void handleLogoutButton(ActionEvent event) {
 		try {
-			FXMLLoader loader = new FXMLLoader(getClass().getResource("/Security/View/V_Login.fxml"));
+			FXMLLoader loader = new FXMLLoader(getClass().getResource("/cafe828/desktop/security/V_Login.fxml"));
 			Parent root = loader.load();
 			Scene scene = new Scene(root);
 			Stage stage = (Stage) logoutButton.getScene().getWindow();
@@ -527,7 +527,7 @@ public class POS2Controller implements Initializable {
 	        System.out.print(discount);
 	        openReceipt(change, discount, grandTotal, receivedPayment, referenceCode, subtotal);
 	        try {
-	            FXMLLoader loader = new FXMLLoader(getClass().getResource("POS.fxml")); // Ensure the FXML path is correct
+	            FXMLLoader loader = new FXMLLoader(getClass().getResource("/cafe828/desktop/pos/POS.fxml")); // Ensure the FXML path is correct
 	            Parent root = loader.load();
 	            MainController mainController = loader.getController();
 
@@ -571,7 +571,7 @@ public class POS2Controller implements Initializable {
 
 		try {
 			System.out.println("Loading ReceiptView.fxml..."); // Log the loading of the FXML file
-			FXMLLoader loader = new FXMLLoader(getClass().getResource("/POS/ReceiptView.fxml"));
+			FXMLLoader loader = new FXMLLoader(getClass().getResource("/cafe828/desktop/pos/ReceiptView.fxml"));
 			Parent root = loader.load();
 			System.out.println("ReceiptView.fxml loaded successfully."); // Log successful loading
 
@@ -734,7 +734,7 @@ public class POS2Controller implements Initializable {
 				// If user confirmed, proceed with cancellation
 				try {
 					System.out.println("hello world");
-					FXMLLoader loader = new FXMLLoader(getClass().getResource("POS.fxml")); // Ensure the FXML path is
+					FXMLLoader loader = new FXMLLoader(getClass().getResource("/cafe828/desktop/pos/POS.fxml")); // Ensure the FXML path is
 																							// correct
 					Parent root = loader.load();
 					MainController mainController = loader.getController();
@@ -757,7 +757,7 @@ public class POS2Controller implements Initializable {
 	@FXML
 	private void goToLogout(ActionEvent event) {
 		try {
-			FXMLLoader loader = new FXMLLoader(getClass().getResource("/Security/View/V_Login.fxml"));
+			FXMLLoader loader = new FXMLLoader(getClass().getResource("/cafe828/desktop/security/V_Login.fxml"));
 			Parent root = loader.load();
 			Scene scene = new Scene(root);
 			Stage stage = (Stage) logoutButton.getScene().getWindow();
@@ -772,7 +772,7 @@ public class POS2Controller implements Initializable {
 	@FXML
 	void goToHome(ActionEvent event) {
 		try {
-			FXMLLoader loader = new FXMLLoader(getClass().getResource("/help/view/HelpStaffLandingPageView.fxml"));
+			FXMLLoader loader = new FXMLLoader(getClass().getResource("/cafe828/desktop/help/HelpStaffLandingPageView.fxml"));
 			Parent root = loader.load();
 			Scene scene = new Scene(root);
 			Stage stage = (Stage) logoutButton.getScene().getWindow();
@@ -792,7 +792,7 @@ public class POS2Controller implements Initializable {
 
 		try {
 			// Load the main POS view
-			FXMLLoader loader = new FXMLLoader(getClass().getResource("POS.fxml"));
+			FXMLLoader loader = new FXMLLoader(getClass().getResource("/cafe828/desktop/pos/POS.fxml"));
 			Parent root = loader.load();
 
 			// Ensure the controller is properly initialized and linked

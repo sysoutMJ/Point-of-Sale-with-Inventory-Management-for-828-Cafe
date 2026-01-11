@@ -330,7 +330,7 @@ public class SearchInventoryController {
 	private void showItemNotFoundDialog() {
 		try {
 			FXMLLoader loader = new FXMLLoader(
-					getClass().getResource("/search/view/dialogueboxes/ItemNotFoundView.fxml"));
+					getClass().getResource("/cafe828/desktop/search/dialogueboxes/ItemNotFoundView.fxml"));
 			Parent root = loader.load();
 
 			Stage stage = new Stage();
@@ -373,7 +373,7 @@ public class SearchInventoryController {
 	private void showSelectSearchByDialog() {
 		try {
 			FXMLLoader loader = new FXMLLoader(
-					getClass().getResource("/search/view/dialogueboxes/SelectSearchByView.fxml"));
+					getClass().getResource("/cafe828/desktop/search/dialogueboxes/SelectSearchByView.fxml"));
 			Parent root = loader.load();
 
 			Stage stage = new Stage();
@@ -416,7 +416,7 @@ public class SearchInventoryController {
 	// Show Item found
 	private void showItemFoundDialog() {
 		try {
-			FXMLLoader loader = new FXMLLoader(getClass().getResource("/search/view/dialogueboxes/ItemFoundView.fxml"));
+			FXMLLoader loader = new FXMLLoader(getClass().getResource("/cafe828/desktop/search/dialogueboxes/ItemFoundView.fxml"));
 			Parent root = loader.load();
 
 			Stage stage = new Stage();
@@ -459,7 +459,7 @@ public class SearchInventoryController {
 	private void showBlankDatePickerDetectedDialog() {
 		try {
 			FXMLLoader loader = new FXMLLoader(
-					getClass().getResource("/search/view/dialogueboxes/SearchFieldBlankView.fxml"));
+					getClass().getResource("/cafe828/desktop/search/dialogueboxes/SearchFieldBlankView.fxml"));
 			Parent root = loader.load();
 
 			Stage stage = new Stage();
@@ -501,7 +501,7 @@ public class SearchInventoryController {
 	private void showBlankTextFieldsDialog() {
 		try {
 			FXMLLoader loader = new FXMLLoader(
-					getClass().getResource("/search/view/dialogueboxes/SearchFieldBlankView.fxml"));
+					getClass().getResource("/cafe828/desktop/search/dialogueboxes/SearchFieldBlankView.fxml"));
 			Parent root = loader.load();
 
 			Stage stage = new Stage();
@@ -673,7 +673,7 @@ public class SearchInventoryController {
 	@FXML
 	void goToSearchInventory() {
 		try {
-			FXMLLoader loader = new FXMLLoader(getClass().getResource("/search/view/SearchInventoryView.fxml"));
+			FXMLLoader loader = new FXMLLoader(getClass().getResource("/cafe828/desktop/search/SearchInventoryView.fxml"));
 			Parent root = loader.load();
 
 			Stage stage = (Stage) maintenanceButton.getScene().getWindow();
@@ -690,7 +690,7 @@ public class SearchInventoryController {
 	@FXML
 	void goToSearchLogs() {
 		try {
-			FXMLLoader loader = new FXMLLoader(getClass().getResource("/search/view/SearchLogsView.fxml"));
+			FXMLLoader loader = new FXMLLoader(getClass().getResource("/cafe828/desktop/search/SearchLogsView.fxml"));
 			Parent root = loader.load();
 
 			Stage stage = (Stage) maintenanceButton.getScene().getWindow();
@@ -710,7 +710,7 @@ public class SearchInventoryController {
 	@FXML
 	void goToHome(ActionEvent event) {
 		try {
-			FXMLLoader loader = new FXMLLoader(getClass().getResource("/Admin/view/AdminMenuView.fxml"));
+			FXMLLoader loader = new FXMLLoader(getClass().getResource("/cafe828/desktop/admin/AdminMenuView.fxml"));
 			Parent root = loader.load();
 
 			Stage stage = (Stage) maintenanceButton.getScene().getWindow();
@@ -727,7 +727,7 @@ public class SearchInventoryController {
 	@FXML
 	void goToSearch(ActionEvent event) {
 		try {
-			FXMLLoader loader = new FXMLLoader(getClass().getResource("/search/view/SearchLandingPageView.fxml"));
+			FXMLLoader loader = new FXMLLoader(getClass().getResource("/cafe828/desktop/search/SearchLandingPageView.fxml"));
 			Parent root = loader.load();
 
 			Stage stage = (Stage) maintenanceButton.getScene().getWindow();
@@ -744,7 +744,7 @@ public class SearchInventoryController {
 	void goToRegisterItem(ActionEvent event) {
 		try {
 			FXMLLoader loader = new FXMLLoader(
-					getClass().getResource("/inventorymanagement/view/RegisterItemView.fxml"));
+					getClass().getResource("/cafe828/desktop/inventory/RegisterItemView.fxml"));
 			Parent root = loader.load();
 
 			Stage stage = (Stage) maintenanceButton.getScene().getWindow();
@@ -762,7 +762,7 @@ public class SearchInventoryController {
 		try {
 			// Load Maintenance.fxml
 			FXMLLoader loader = new FXMLLoader(
-					getClass().getResource("/maintenance/landingpage/view/LandingPageView.fxml"));
+					getClass().getResource("/cafe828/desktop/maintenance/landingpage/LandingPageView.fxml"));
 			Parent root = loader.load();
 
 			// Get the controller for Maintenance.fxml if needed
@@ -783,7 +783,7 @@ public class SearchInventoryController {
 	void goToSecurity(ActionEvent event) {
 		try {
 			FXMLLoader loader = new FXMLLoader(
-					getClass().getResource("/Security/changepassword/view/ChangePassword.fxml"));
+					getClass().getResource("/cafe828/desktop/security/changepassword/ChangePassword.fxml"));
 			Parent root = loader.load();
 
 			Stage stage = (Stage) maintenanceButton.getScene().getWindow();
@@ -800,7 +800,7 @@ public class SearchInventoryController {
 	@FXML
 	void goToReport(ActionEvent event) {
 		try {
-			FXMLLoader loader = new FXMLLoader(getClass().getResource("/report/view/StockReportView.fxml"));
+			FXMLLoader loader = new FXMLLoader(getClass().getResource("/cafe828/desktop/report/StockReportView.fxml"));
 			Parent root = loader.load();
 
 			Stage stage = (Stage) maintenanceButton.getScene().getWindow();
@@ -818,7 +818,7 @@ public class SearchInventoryController {
 	void goToHelp(ActionEvent event) {
 		try {
 			// Load Maintenance.fxml
-			FXMLLoader loader = new FXMLLoader(getClass().getResource("/help/view/HelpLandingPageView.fxml"));
+			FXMLLoader loader = new FXMLLoader(getClass().getResource("/cafe828/desktop/help/HelpLandingPageView.fxml"));
 			Parent root = loader.load();
 
 			// Get the controller for Maintenance.fxml if needed
@@ -840,7 +840,7 @@ public class SearchInventoryController {
 
 		try {
 			// Load Maintenance.fxml
-			FXMLLoader loader = new FXMLLoader(getClass().getResource("/about/view/AboutAdmin.fxml"));
+			FXMLLoader loader = new FXMLLoader(getClass().getResource("/cafe828/desktop/about/AboutAdmin.fxml"));
 			Parent root = loader.load();
 
 			// Get the controller for Maintenance.fxml if needed
@@ -862,7 +862,7 @@ public class SearchInventoryController {
 		RegisterItemDAO daoRegisterItem = new RegisterItemDAO();
 		try {
 			// Load Maintenance.fxml
-			FXMLLoader loader = new FXMLLoader(getClass().getResource("/Security/View/V_Login.fxml"));
+			FXMLLoader loader = new FXMLLoader(getClass().getResource("/cafe828/desktop/security/V_Login.fxml"));
 			Parent root = loader.load();
 
 			// Get the controller for Maintenance.fxml if needed

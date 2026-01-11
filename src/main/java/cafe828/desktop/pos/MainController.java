@@ -567,7 +567,7 @@ public class MainController {
     @FXML
     private void goToHome() {
     	try {
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("/help/view/HelpStaffLandingPageView.fxml"));
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/cafe828/desktop/help/HelpStaffLandingPageView.fxml"));
             Parent root = loader.load();
             Scene scene = new Scene(root);
             Stage stage = (Stage) logoutButton.getScene().getWindow();
@@ -585,7 +585,7 @@ public class MainController {
     	try {
 			// Load Maintenance.fxml
 			FXMLLoader loader = new FXMLLoader(
-					getClass().getResource("/Security/View/V_Login.fxml"));
+					getClass().getResource("/cafe828/desktop/security/V_Login.fxml"));
 			Parent root = loader.load();
 			
 			// Get the controller for Maintenance.fxml if needed
@@ -621,7 +621,7 @@ public class MainController {
             alert.showAndWait();
         } else {
             try {
-                FXMLLoader loader = new FXMLLoader(getClass().getResource("POS2.fxml"));
+                FXMLLoader loader = new FXMLLoader(getClass().getResource("/cafe828/desktop/pos/POS2.fxml"));
                 Parent root = loader.load();
                 POS2Controller pos2Controller = loader.getController();
                 pos2Controller.setData(this, currentOrder, subtotal, discount, grandTotal, isPWDDiscountApplied, isSeniorDiscountApplied); // Pass the main controller and order data

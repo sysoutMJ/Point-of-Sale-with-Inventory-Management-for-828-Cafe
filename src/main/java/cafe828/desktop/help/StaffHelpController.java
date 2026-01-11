@@ -45,7 +45,7 @@ public class StaffHelpController implements Initializable {
     	try {
 			// Load Maintenance.fxml
 			FXMLLoader loader = new FXMLLoader(
-					getClass().getResource("/Security/View/V_Login.fxml"));
+					getClass().getResource("/cafe828/desktop/security/V_Login.fxml"));
 			Parent root = loader.load();
 			
 			// Get the controller for Maintenance.fxml if needed
@@ -65,7 +65,7 @@ public class StaffHelpController implements Initializable {
 	@FXML
 	void goToPOS(ActionEvent event) {
 		try {
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("/POS/POS.fxml"));
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/cafe828/desktop/pos/POS.fxml"));
             Parent root = loader.load();
             Scene scene = new Scene(root);
             Stage stage = (Stage) logoutButton.getScene().getWindow();

@@ -212,7 +212,7 @@ public class CreateMenuController {
 	private void handleRestockButtonAction(ActionEvent event) {
 
 		try {
-			FXMLLoader loader = new FXMLLoader(getClass().getResource("/maintenance/view/RestockView.fxml"));
+			FXMLLoader loader = new FXMLLoader(getClass().getResource("/cafe828/desktop/maintenance/RestockView.fxml"));
 			Parent root = loader.load();
 
 			Stage stage = (Stage) maintenanceButton.getScene().getWindow();
@@ -230,7 +230,7 @@ public class CreateMenuController {
 
 		try {
 			// Load Maintenance.fxml
-			FXMLLoader loader = new FXMLLoader(getClass().getResource("/maintenance/view/EditItemDetailsView.fxml"));
+			FXMLLoader loader = new FXMLLoader(getClass().getResource("/cafe828/desktop/maintenance/EditItemDetailsView.fxml"));
 			Parent root = loader.load();
 
 			// Get the controller for Maintenance.fxml if needed
@@ -252,7 +252,7 @@ public class CreateMenuController {
 
 		try {
 			// Load Maintenance.fxml
-			FXMLLoader loader = new FXMLLoader(getClass().getResource("/maintenance/view/SetItemStatusView.fxml"));
+			FXMLLoader loader = new FXMLLoader(getClass().getResource("/cafe828/desktop/maintenance/SetItemStatusView.fxml"));
 			Parent root = loader.load();
 
 			// Get the controller for Maintenance.fxml if needed
@@ -274,7 +274,7 @@ public class CreateMenuController {
 
 		try {
 			FXMLLoader loader = new FXMLLoader(
-					getClass().getResource("/maintenance/createmenu/view/AddIngredientsView.fxml"));
+					getClass().getResource("/cafe828/desktop/maintenance/createmenu/AddIngredientsView.fxml"));
 			AnchorPane dialogPane = loader.load();
 
 			// Get the controller of the "Add Ingredients" page
@@ -1013,7 +1013,7 @@ public class CreateMenuController {
 
 		try {
 			// Load Maintenance.fxml
-			FXMLLoader loader = new FXMLLoader(getClass().getResource("/help/view/HelpLandingPageView.fxml"));
+			FXMLLoader loader = new FXMLLoader(getClass().getResource("/cafe828/desktop/help/HelpLandingPageView.fxml"));
 			Parent root = loader.load();
 
 			// Get the controller for Maintenance.fxml if needed
@@ -1035,7 +1035,7 @@ public class CreateMenuController {
 
 		try {
 			// Load Maintenance.fxml
-			FXMLLoader loader = new FXMLLoader(getClass().getResource("/about/view/AboutAdmin.fxml"));
+			FXMLLoader loader = new FXMLLoader(getClass().getResource("/cafe828/desktop/about/AboutAdmin.fxml"));
 			Parent root = loader.load();
 
 			// Get the controller for Maintenance.fxml if needed
@@ -1057,7 +1057,7 @@ public class CreateMenuController {
 
 		try {
 			// Load Maintenance.fxml
-			FXMLLoader loader = new FXMLLoader(getClass().getResource("/Admin/view/AdminMenuView.fxml"));
+			FXMLLoader loader = new FXMLLoader(getClass().getResource("/cafe828/desktop/admin/AdminMenuView.fxml"));
 			Parent root = loader.load();
 
 			// Get the controller for Maintenance.fxml if needed
@@ -1079,7 +1079,7 @@ public class CreateMenuController {
 		RegisterItemDAO daoRegisterItem = new RegisterItemDAO();
 		try {
 			// Load Maintenance.fxml
-			FXMLLoader loader = new FXMLLoader(getClass().getResource("/Security/View/V_Login.fxml"));
+			FXMLLoader loader = new FXMLLoader(getClass().getResource("/cafe828/desktop/security/V_Login.fxml"));
 			Parent root = loader.load();
 
 			// Get the controller for Maintenance.fxml if needed
@@ -1102,7 +1102,7 @@ public class CreateMenuController {
 		try {
 			// Load Maintenance.fxml
 			FXMLLoader loader = new FXMLLoader(
-					getClass().getResource("/maintenance/landingpage/view/LandingPageView.fxml"));
+					getClass().getResource("/cafe828/desktop/maintenance/landingpage/LandingPageView.fxml"));
 			Parent root = loader.load();
 
 			// Get the controller for Maintenance.fxml if needed
@@ -1125,7 +1125,7 @@ public class CreateMenuController {
 		try {
 			// Load Maintenance.fxml
 			FXMLLoader loader = new FXMLLoader(
-					getClass().getResource("/inventorymanagement/view/RegisterItemView.fxml"));
+					getClass().getResource("/cafe828/desktop/inventory/RegisterItemView.fxml"));
 			Parent root = loader.load();
 
 			// Get the controller for Maintenance.fxml if needed
@@ -1146,7 +1146,7 @@ public class CreateMenuController {
 	void goToReport(ActionEvent event) {
 
 		try {
-			FXMLLoader loader = new FXMLLoader(getClass().getResource("/report/view/ReportLandingPageView.fxml"));
+			FXMLLoader loader = new FXMLLoader(getClass().getResource("/cafe828/desktop/report/ReportLandingPageView.fxml"));
 			Parent root = loader.load();
 			Scene scene = new Scene(root);
 			Stage stage = (Stage) logoutButton.getScene().getWindow();
@@ -1162,7 +1162,7 @@ public class CreateMenuController {
 	void goToSearch(ActionEvent event) {
 
 		try {
-			FXMLLoader loader = new FXMLLoader(getClass().getResource("/search/view/SearchLandingPageView.fxml"));
+			FXMLLoader loader = new FXMLLoader(getClass().getResource("/cafe828/desktop/search/SearchLandingPageView.fxml"));
 			Parent root = loader.load();
 
 			Stage stage = (Stage) maintenanceButton.getScene().getWindow();
@@ -1181,7 +1181,7 @@ public class CreateMenuController {
 		try {
 			// Load Maintenance.fxml
 			FXMLLoader loader = new FXMLLoader(
-					getClass().getResource("/Security/changepassword/view/ChangePassword.fxml"));
+					getClass().getResource("/cafe828/desktop/security/changepassword/ChangePassword.fxml"));
 			Parent root = loader.load();
 
 			// Get the controller for Maintenance.fxml if needed
@@ -1202,7 +1202,7 @@ public class CreateMenuController {
 	void goToBackup(ActionEvent event) {
 
 		try {
-			FXMLLoader loader = new FXMLLoader(getClass().getResource("/maintenance/backup/view/BackupView.fxml"));
+			FXMLLoader loader = new FXMLLoader(getClass().getResource("/cafe828/desktop/maintenance/backup/BackupView.fxml"));
 			Parent root = loader.load();
 
 			Stage stage = (Stage) goToBackupButton.getScene().getWindow();
@@ -1219,7 +1219,7 @@ public class CreateMenuController {
 	void goToRestock(ActionEvent event) {
 
 		try {
-			FXMLLoader loader = new FXMLLoader(getClass().getResource("/maintenance/restock/view/RestockView.fxml"));
+			FXMLLoader loader = new FXMLLoader(getClass().getResource("/cafe828/desktop/maintenance/restock/RestockView.fxml"));
 			Parent root = loader.load();
 
 			Stage stage = (Stage) maintenanceButton.getScene().getWindow();
@@ -1238,7 +1238,7 @@ public class CreateMenuController {
 		try {
 			// Load Maintenance.fxml
 			FXMLLoader loader = new FXMLLoader(
-					getClass().getResource("/maintenance/edititemdetails/view/EditItemDetailsView.fxml"));
+					getClass().getResource("/cafe828/desktop/maintenance/edititemdetails/EditItemDetailsView.fxml"));
 			Parent root = loader.load();
 
 			// Get the controller for Maintenance.fxml if needed
@@ -1261,7 +1261,7 @@ public class CreateMenuController {
 		try {
 			// Load Maintenance.fxml
 			FXMLLoader loader = new FXMLLoader(
-					getClass().getResource("/maintenance/setitemstatus/view/SetItemStatusView.fxml"));
+					getClass().getResource("/cafe828/desktop/maintenance/setitemstatus/SetItemStatusView.fxml"));
 			Parent root = loader.load();
 
 			// Get the controller for Maintenance.fxml if needed
@@ -1284,7 +1284,7 @@ public class CreateMenuController {
 		try {
 			// Load Maintenance.fxml
 			FXMLLoader loader = new FXMLLoader(
-					getClass().getResource("/maintenance/createmenu/view/CreateMenuView.fxml"));
+					getClass().getResource("/cafe828/desktop/maintenance/createmenu/CreateMenuView.fxml"));
 			Parent root = loader.load();
 
 			// Get the controller for Maintenance.fxml if needed
