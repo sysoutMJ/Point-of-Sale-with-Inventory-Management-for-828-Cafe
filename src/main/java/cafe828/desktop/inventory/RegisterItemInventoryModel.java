@@ -29,10 +29,7 @@ public class RegisterItemInventoryModel {
 		return item_name;
 	}
 
-	public Double getCurrent_stock() {
-		System.out.println(current_stock);
-		return current_stock;
-	}
+	public Double getCurrent_stock() { return current_stock; }
 
 	public String getItem_unit_of_measurement() {
 		return item_unit_of_measurement;

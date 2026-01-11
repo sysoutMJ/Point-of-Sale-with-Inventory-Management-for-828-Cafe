@@ -189,31 +189,36 @@ String setGeneratedRandomCodeForUniqueID(String type) {
 	    
 	}
 
-private boolean isStockIDExist(String ID, String type) {
-	String sql = null;
-	if(type == "edit") {
-    sql = "SELECT COUNT(*) AS count FROM user_trail_report WHERE unique_event_id = ?";
-	} 
-	 DatabaseConnection dbConnectionInformation = new DatabaseConnection();
+    private boolean isStockIDExist(String ID, String type) {
 
-    try (Connection conn = DriverManager.getConnection(dbConnectionInformation.getUrl(),
-            dbConnectionInformation.getUsername(), dbConnectionInformation.getPassword());
-         PreparedStatement stmt = conn.prepareStatement(sql)) {
-
-        stmt.setString(1, ID); // Set the integer reference code as parameter
-        ResultSet rs = stmt.executeQuery();
-
-        if (rs.next()) {
-            int count = rs.getInt("count");
-            return count > 0;
+        if (!"edit".equals(type)) {
+            return false;
         }
 
-    } catch (SQLException e) {
-        e.printStackTrace();
+        String sql = "SELECT COUNT(*) AS count FROM user_trail_report WHERE unique_event_id = ?";
+
+        DatabaseConnection dbConnectionInformation = new DatabaseConnection();
+
+        try (Connection conn = DriverManager.getConnection(
+                dbConnectionInformation.getUrl(),
+                dbConnectionInformation.getUsername(),
+                dbConnectionInformation.getPassword());
+             PreparedStatement stmt = conn.prepareStatement(sql)) {
+
+            stmt.setString(1, ID);
+            ResultSet rs = stmt.executeQuery();
+
+            if (rs.next()) {
+                return rs.getInt("count") > 0;
+            }
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
+        return false;
     }
 
-    return false; // Default to false if any exception occurs or if no records found
-}
 
 private static String generateRandomNumericPart(int length) {
     Random random = new Random();
