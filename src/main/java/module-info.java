@@ -14,4 +14,5 @@ module org.example.cafe828rebuild {
 
     opens org.example.cafe828rebuild to javafx.fxml;
     exports org.example.cafe828rebuild;
+    opens org.example.cafe828rebuild.sidebar to javafx.fxml;
 }
