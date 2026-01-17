@@ -1,0 +1,18 @@
+#side-bar-body {
+    -fx-background-color: #FAFAFA;
+    -fx-background-radius: 15;
+    -fx-border-radius: 15;
+
+}
+
+.sidebar-admin-buttons {
+    -fx-background-color: #FAFAFA;
+    -fx-text-fill: #2E2E2E;
+    -fx-font-size: 14px;
+}
+
+.sidebar-admin-buttons:hover {
+    -fx-background-color: #FFBA68;
+    -fx-background-radius: 15;
+    -fx-border-radius: 15;
+}
