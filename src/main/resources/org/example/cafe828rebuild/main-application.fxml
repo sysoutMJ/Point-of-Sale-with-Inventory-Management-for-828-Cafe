@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.layout.HBox?>
-<?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
 
-<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.cafe828rebuild.MainController">
    <children>
-      <Pane id="left-pane" fx:id="sideBarPane" prefHeight="1080.0" prefWidth="200.0" stylesheets="@css/main.css" />
-      <StackPane id="main-stack-pane" prefHeight="150.0" prefWidth="200.0" stylesheets="@css/main.css" HBox.hgrow="ALWAYS" />
+      <VBox id="side-bar-container" fx:id="sideBarVBoxContainer" alignment="CENTER" prefHeight="1080.0" prefWidth="200.0" stylesheets="@css/main.css">
+        <fx:include fx:id="sideBarContent" source="sidebar/sidebar.fxml" />
+      </VBox>
+      <StackPane id="main-stack-pane" fx:id="mainStackPaneContainer" prefHeight="150.0" prefWidth="200.0" stylesheets="@css/main.css" HBox.hgrow="ALWAYS" />
    </children>
 </HBox>
