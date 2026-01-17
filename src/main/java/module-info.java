@@ -10,6 +10,7 @@ module org.example.cafe828rebuild {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
+    requires javafx.graphics;
 
     opens org.example.cafe828rebuild to javafx.fxml;
     exports org.example.cafe828rebuild;
